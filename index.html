@@ -54,7 +54,7 @@
                 <div class="hidden md:flex flex-1 justify-end items-center space-x-10 mr-10">
                     <a href="#home" class="text-slate-100 hover:text-cortex-accent font-medium text-sm transition-colors">Home</a>
                     <a href="#about" class="text-slate-100 hover:text-cortex-accent font-medium text-sm transition-colors">About</a>
-                    <a href="#portfolio" class="text-slate-100 hover:text-cortex-accent font-medium text-sm transition-colors">Portfolio</a>
+                    <a href="#portfolio-overview" class="text-slate-100 hover:text-cortex-accent font-medium text-sm transition-colors">Portfolio</a>
                     <a href="#news" class="text-slate-100 hover:text-cortex-accent font-medium text-sm transition-colors">News</a>
                     <a href="#contact" class="text-slate-100 hover:text-cortex-accent font-medium text-sm transition-colors">Contact</a>
                 </div>
@@ -81,7 +81,8 @@
 
         <!-- Video Background -->
         <video autoplay loop muted playsinline poster="images/coline-beulin-oLWGI-Q76Yc-unsplash.jpg" class="absolute inset-0 w-full h-full object-cover z-0">
-            <source src="videos/cortex-hero-video.webm" type="video/webm">
+            <source src="videos/cortex%20hero%20video%20mobile.webm" type="video/webm" media="(max-width: 767px)">
+            <source src="videos/cortex%20hero%20video%20desktop.webm" type="video/webm">
         </video>
 
         <!-- Background Image with Overlay -->
@@ -143,8 +144,8 @@
 
                                     </div>
                                     <div>
-                                        <h3 class="text-xl font-bold text-white mb-1">Smoother experiences.</h3>
-                                        <p class="text-gray-100 text-md leading-snug">For every brand we Launch.</p>
+                                        <h3 class="text-xl font-bold text-white mb-1">D2C Commerce</h3>
+                                        <p class="text-gray-100 text-md leading-snug">End-to-end online experiences that connect brands directly with customers.</p>
                                     </div>
                                 </div>
                             </div>
@@ -165,8 +166,8 @@
                                         </svg>
                                     </div>
                                     <div>
-                                        <h3 class="text-xl font-bold text-white mb-1">Built to scale.</h3>
-                                        <p class="text-gray-100 text-md leading-snug">For every platform we build.</p>
+                                        <h3 class="text-xl font-bold text-white mb-1">Retail Operations</h3>
+                                        <p class="text-gray-100 text-md leading-snug">Seamless store, inventory, and fulfillment operations built to scale.</p>
                                     </div>
                                 </div>
                             </div>
@@ -190,8 +191,8 @@
                                         </svg>
                                     </div>
                                     <div>
-                                        <h3 class="text-xl font-bold text-white mb-1">Fast, thrilling experiences.</h3>
-                                        <p class="text-gray-100 text-md leading-snug">For every product we deliver.</p>
+                                        <h3 class="text-xl font-bold text-white mb-1">Growth Marketing</h3>
+                                        <p class="text-gray-100 text-md leading-snug">Data-driven campaigns that attract, convert, and retain customers.</p>
                                     </div>
                                 </div>
                             </div>
@@ -209,67 +210,6 @@
             </div>
         </div>
 
-    </section>
-
-    <!-- Highlights Section (Bento Grid) -->
-    <section id="highlights" class="py-20 bg-slate-50">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto mb-12">
-                <span class="inline-block py-1 px-3 rounded-full bg-cortex-accent/30 text-cortex-primary text-xs font-bold tracking-widest uppercase mb-2">Highlights</span>
-                <h2 class="font-display text-4xl md:text-5xl font-bold text-slate-900 mt-2 mb-6">Impact in Motion</h2>
-                <p class="text-slate-600 text-lg">Driving growth, innovation, and digital transformation across the Philippines.</p>
-            </div>
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 auto-rows-[300px]">
-                
-                <!-- Large Card (Left) -->
-                <div class="lg:col-span-2 lg:row-span-2 relative group overflow-hidden rounded-3xl bg-slate-900 shadow-lg border border-slate-300 cursor-pointer hover:shadow-2xl hover:shadow-cortex-primary/20 transition-all duration-500" data-aos="fade-up">
-                    <img src="images/screen-sharkninja.png" alt="SharkNinja" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-80">
-                    <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent"></div>
-                    <div class="absolute bottom-0 left-0 p-8">
-                        <span class="text-xs font-bold tracking-wider uppercase text-cortex-accent mb-2 block">Featured Case Study</span>
-                        <h3 class="text-3xl font-bold text-white mb-2 leading-tight">SharkNinja Philippines</h3>
-                        <p class="text-slate-200 max-w-md">Bringing 5-star innovation to Filipino homes with premium lifestyle technology.</p>
-                    </div>
-                </div>
-
-                <!-- Small Card 1 (Top Middle) - Solid Color -->
-                <div class="lg:col-span-1 lg:row-span-1 relative group overflow-hidden rounded-3xl bg-cortex-primary p-8 flex flex-col justify-between shadow-lg hover:shadow-2xl hover:bg-cortex-secondary transition-colors duration-300 cursor-pointer border border-slate-300" data-aos="fade-up" data-aos-delay="100">
-                    <div class="flex justify-between items-start">
-                        <span class="text-white/80 text-sm font-medium uppercase tracking-wider">Growth</span>
-                        <i class="fas fa-chart-line text-white/60 text-xl"></i>
-                    </div>
-                    <div>
-                        <h3 class="text-5xl font-bold text-white mb-1">1M+</h3>
-                        <p class="text-white/90 text-sm font-medium">Orders Processed in 2024</p>
-                    </div>
-                </div>
-
-                <!-- Small Card 2 (Top Right) - Image -->
-                <div class="lg:col-span-1 lg:row-span-1 relative group overflow-hidden rounded-3xl bg-slate-800 shadow-lg cursor-pointer border border-slate-300 hover:shadow-2xl transition-all duration-500" data-aos="fade-up" data-aos-delay="200">
-                     <img src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Team" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-60 group-hover:opacity-40">
-                     <div class="absolute inset-0 p-6 flex flex-col justify-end">
-                        <span class="text-cortex-accent text-xs font-bold uppercase mb-2">Join the Team</span>
-                        <h3 class="text-xl font-bold text-white leading-tight">We are Hiring Builders</h3>
-                        <a href="#contact" class="mt-3 inline-flex items-center text-white text-sm font-medium hover:text-cortex-accent transition-colors">View Openings <i class="fas fa-arrow-right ml-2 text-xs"></i></a>
-                     </div>
-                </div>
-
-                <!-- Wide Card (Bottom Right - spanning 2 cols) -->
-                <div class="lg:col-span-2 lg:row-span-1 relative group overflow-hidden rounded-3xl bg-slate-900 shadow-lg cursor-pointer border border-white/10 hover:shadow-2xl transition-all duration-500" data-aos="fade-up" data-aos-delay="300">
-                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Office" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-50 group-hover:opacity-40">
-                    <div class="absolute inset-0 bg-gradient-to-r from-slate-900/90 to-transparent"></div>
-                     <div class="absolute inset-0 p-8 flex flex-col justify-center max-w-lg">
-                        <span class="text-cortex-secondary text-xs font-bold uppercase mb-2">Innovation Hub</span>
-                        <h3 class="text-2xl font-bold text-white mb-2">Built for the Future</h3>
-                        <p class="text-slate-300 text-sm leading-relaxed">
-                            Our state-of-the-art development center in Alabang is where strategy meets execution. Join us in redefining the digital landscape.
-                        </p>
-                     </div>
-                </div>
-
-            </div>
-        </div>
     </section>
 
     <!-- About Section -->
@@ -349,6 +289,317 @@
         </div>
     </section>
 
+    <!-- Portfolio Overview Section (Bento Grid) -->
+    <section id="portfolio-overview" class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12" data-aos="fade-up">
+                <span class="inline-block py-1 px-3 rounded-full bg-cortex-accent/30 text-cortex-primary text-xs font-bold tracking-widest uppercase mb-2">Portfolio Highlights</span>
+                <h2 class="font-display text-4xl md:text-5xl font-bold text-slate-900 mt-2 mb-6">Impact in Motion</h2>
+                <p class="text-slate-600 text-lg">Driving growth, innovation, and digital transformation across the Philippines.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 auto-rows-[300px]">
+                
+                <!-- ------------------------ -->
+                <!-- First Row Group for SharkNinja -->
+                <!-- ------------------------ -->
+
+                <!-- Large Card (Left) -->
+                <div class="lg:col-span-2 lg:row-span-2 relative group overflow-hidden rounded-3xl bg-slate-900 shadow-lg border border-slate-300 cursor-pointer hover:shadow-2xl hover:shadow-cortex-primary/20 transition-all duration-500" data-aos="fade-up">
+                    <img src="https://sharkninja.com.ph/cdn/shop/articles/03_Shark_Ninja_Article_01.png?v=1759725056&width=1200" alt="SharkNinja" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-80">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 p-8">
+                        <span class="text-xs font-bold tracking-wider uppercase text-cortex-accent mb-2 block">SharkNinja.com.ph</span>
+                        <h3 class="text-3xl font-bold text-white mb-2 leading-tight">Over 15,000 Units Sold</h3>
+                        <p class="text-slate-200 max-w-md">Across online and offline channels driven by strong execution and market penetration.​</p>
+                    </div>
+                </div>
+
+                <!-- Small Card 1 (Top Middle) - Solid Color -->
+                <div class="lg:col-span-1 lg:row-span-1 relative group overflow-hidden rounded-3xl bg-cortex-primary p-8 flex flex-col justify-between shadow-lg hover:shadow-2xl hover:bg-cortex-secondary transition-colors duration-300 border border-slate-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="flex justify-between items-start">
+                        <span class="text-white/80 text-sm font-medium uppercase tracking-wider">Growth</span>
+                        <i class="fas fa-chart-line text-white/60 text-xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-3xl font-bold text-white mb-1">Strengthened Brand Presence​</h3>
+                        <p class="text-white/90 text-sm font-medium"><strong></strong> in a fast-growing consumer market</p>
+                    </div>
+                </div>
+
+                <!-- Small Card 2 (Top Right) - Image -->
+                <div class="lg:col-span-1 lg:row-span-1 relative group overflow-hidden rounded-3xl bg-slate-900 shadow-lg border border-slate-300 hover:shadow-2xl transition-all duration-500" data-aos="fade-up" data-aos-delay="200">
+                     <img src="https://cdn.accentuate.io/9986510160189/1752474617908/DTC_NJA_FB245_WEBR_WebCollage_4.webp?v=1752474617908&transform=cover=1/resize=1024" alt="Team" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-30 group-hover:opacity-40">
+                     <div class="absolute inset-0 p-6 flex flex-col justify-end">
+                        <span class="text-cortex-accent text-xs font-bold uppercase mb-2"></span>
+                        <h3 class="text-xl font-bold text-white leading-tight">Strategic Category Expansion</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed">Broadened the portfolio with new kitchen and outdoor innovations to capture emerging consumer demand.
+                        </p>
+                        <!--
+                        <a href="#contact" class="mt-3 inline-flex items-center text-white text-sm font-medium hover:text-cortex-accent transition-colors">View Openings <i class="fas fa-arrow-right ml-2 text-xs"></i></a> -->
+                     </div>
+                </div>
+
+                <!-- Wide Card (Bottom Right - spanning 2 cols) -->
+                <div class="lg:col-span-2 lg:row-span-1 relative group overflow-hidden rounded-3xl bg-slate-900 shadow-lg border border-white/10 hover:shadow-2xl transition-all duration-500" data-aos="fade-up" data-aos-delay="300">
+                    <img src="https://cdn.shopify.com/s/files/1/0790/0548/3325/files/Untitled_design_14.jpg?v=1764732100" alt="Office" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-50 group-hover:opacity-40">
+                    <div class="absolute inset-0 bg-gradient-to-r from-slate-900/90 to-transparent"></div>
+                     <div class="absolute inset-0 p-8 flex flex-col justify-end max-w-lg">
+                        <span class="text-cortex-secondary text-xs font-bold uppercase mb-2">Strategy</span>
+                        <h3 class="text-2xl font-bold text-white mb-2">Retail Activation & Growth</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed">
+                            Executed 3 strategic pop-ups across high-traffic malls
+                        </p>
+                     </div>
+                </div>
+
+                <!-- ------------------------- -->
+                <!-- Second Row Group for Mang Kosme -->
+                <!-- ------------------------- -->
+
+                <!-- Small Card 1 (Top Middle) - Solid Color -->
+                <div class="lg:col-span-1 lg:row-span-1 relative group overflow-hidden rounded-3xl bg-cortex-secondary p-8 flex flex-col justify-between shadow-lg hover:shadow-2xl hover:bg-cortex-primary transition-colors duration-300 border border-slate-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="flex justify-between items-start">
+                        <span class="text-white/80 text-sm font-medium uppercase tracking-wider">Growth</span>
+                        <i class="fas fa-chart-line text-white/60 text-xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-3xl font-bold text-white mb-1">Championing the Negosyo Community</h3>
+                        <p class="text-white/90 text-sm font-medium">Empower SMEs with reliable, affordable appliances for business growth.</p>
+                    </div>
+                </div>
+
+                <!-- Small Card 2 (Top Right) - Image -->
+                <div class="lg:col-span-1 lg:row-span-1 relative group overflow-hidden rounded-3xl bg-slate-900 shadow-lg border border-slate-300 hover:shadow-2xl transition-all duration-500" data-aos="fade-up" data-aos-delay="200">
+                     <img src="images/grid-mangkosme-1.webp" alt="Team" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-30 group-hover:opacity-40">
+                     <div class="absolute inset-0 p-6 flex flex-col justify-end">
+                        <span class="text-cortex-accent text-xs font-bold uppercase mb-2"></span>
+                        <h3 class="text-xl font-bold text-white leading-tight">Expanded Brand Portfolio & Categories</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed">Giving customers more options beyond large appliances.​
+                        </p>
+                        <!--
+                        <a href="#contact" class="mt-3 inline-flex items-center text-white text-sm font-medium hover:text-cortex-accent transition-colors">View Openings <i class="fas fa-arrow-right ml-2 text-xs"></i></a> -->
+                     </div>
+                </div>
+
+                <!-- Large Card (Left) -->
+                <div class="lg:col-span-2 lg:row-span-2 relative group overflow-hidden rounded-3xl bg-slate-900 shadow-lg border border-slate-300 cursor-pointer hover:shadow-2xl hover:shadow-cortex-primary/20 transition-all duration-500" data-aos="fade-up">
+                    <img src="images/grid-mangkosme-2.webp" alt="SharkNinja" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-80">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 p-8">
+                        <span class="text-xs font-bold tracking-wider uppercase text-cortex-accent mb-2 block">MangKosme.com</span>
+                        <h3 class="text-3xl font-bold text-white mb-2 leading-tight">Best-in-class warehouse processes</h3>
+                        <p class="text-slate-200 max-w-md"><strong>Accelerated warehouse sales</strong>, supporting scalable business growth.​​</p>
+                    </div>
+                </div>
+
+                <!-- Wide Card (Bottom Right - spanning 2 cols) -->
+                <div class="lg:col-span-2 lg:row-span-1 relative group overflow-hidden rounded-3xl bg-slate-900 shadow-lg border border-white/10 hover:shadow-2xl transition-all duration-500" data-aos="fade-up" data-aos-delay="300">
+                    <img src="images/grid-mangkosme-3.webp" alt="Office" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-50 group-hover:opacity-40">
+                    <div class="absolute inset-0 bg-gradient-to-r from-slate-900/90 to-transparent"></div>
+                     <div class="absolute inset-0 p-8 flex flex-col justify-end max-w-lg">
+                        <span class="text-cortex-secondary text-xs font-bold uppercase mb-2">Customer Engagement</span>
+                        <h3 class="text-2xl font-bold text-white mb-2">500,000+ Strong Facebook Community</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed">
+                            High brand engagement, reach, and customer affinity.​
+                        </p>
+                     </div>
+                </div>
+
+                <!-- ------------------------- -->
+                <!-- Third Row Group for ConcepStore -->
+                <!-- ------------------------- -->  
+
+                <!-- Large Card (Left) -->
+                <div class="lg:col-span-2 lg:row-span-2 relative group overflow-hidden rounded-3xl bg-slate-900 shadow-lg border border-slate-300 cursor-pointer hover:shadow-2xl hover:shadow-cortex-primary/20 transition-all duration-500" data-aos="fade-up">
+                    <img src="https://concepstore.ph/cdn/shop/articles/title_6abab136-6085-4dc2-beb6-cd9e99eabd45.jpg?v=1730271741&width=900" alt="SharkNinja" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-80">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 p-8">
+                        <span class="text-xs font-bold tracking-wider uppercase text-cortex-accent mb-2 block">ConcepStore.ph</span>
+                        <h3 class="text-3xl font-bold text-white mb-2 leading-tight">Solution Driven Appliances​</h3>
+                        <p class="text-slate-200 max-w-md">Reflects ConcepStore’s curated, product strategy for convenience and everyday value.​​</p>
+                    </div>
+                </div>
+
+                <!-- Small Card 1 (Top Middle) - Solid Color -->
+                <div class="lg:col-span-1 lg:row-span-1 relative group overflow-hidden rounded-3xl bg-cortex-primary p-8 flex flex-col justify-between shadow-lg hover:shadow-2xl hover:bg-cortex-secondary transition-colors duration-300 border border-slate-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="flex justify-between items-start">
+                        <span class="text-white/80 text-sm font-medium uppercase tracking-wider">Growth</span>
+                        <i class="fas fa-chart-line text-white/60 text-xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-3xl font-bold text-white mb-1">E-Commerce Excellence & Growth</h3>
+                        <p class="text-white/90 text-sm font-medium"><strong></strong>Loyalty workflows, driving stronger customer engagement.</p>
+                    </div>
+                </div>
+
+                <!-- Small Card 2 (Top Right) - Image -->
+                <div class="lg:col-span-1 lg:row-span-1 relative group overflow-hidden rounded-3xl bg-slate-900 shadow-lg border border-slate-300 hover:shadow-2xl transition-all duration-500" data-aos="fade-up" data-aos-delay="200">
+                     <img src="https://concepstore.ph/cdn/shop/articles/Showroom_3_1_0b7d7fe6-4ef2-410d-8618-58bfa9314048.jpg?v=1711093210&width=628" alt="Team" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-30 group-hover:opacity-40">
+                     <div class="absolute inset-0 p-6 flex flex-col justify-end">
+                        <span class="text-cortex-accent text-xs font-bold uppercase mb-2">Strategy</span>
+                        <h3 class="text-xl font-bold text-white leading-tight">Trusted Brands & Diverse Portfolio</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed">Giving customers premium choice across categories.
+                        </p>
+                        <!--
+                        <a href="#contact" class="mt-3 inline-flex items-center text-white text-sm font-medium hover:text-cortex-accent transition-colors">View Openings <i class="fas fa-arrow-right ml-2 text-xs"></i></a> -->
+                     </div>
+                </div>
+
+                <!-- Wide Card (Bottom Right - spanning 2 cols) -->
+                <div class="lg:col-span-2 lg:row-span-1 relative group overflow-hidden rounded-3xl bg-slate-900 shadow-lg border border-white/10 hover:shadow-2xl transition-all duration-500" data-aos="fade-up" data-aos-delay="300">
+                    <img src="https://concepstore.ph/cdn/shop/files/p4_b1abf771-c8c2-43d3-9fe6-d98a81469916.jpg?v=1747902644&width=1200" alt="Office" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-50 group-hover:opacity-40">
+                    <div class="absolute inset-0 bg-gradient-to-r from-slate-900/90 to-transparent"></div>
+                     <div class="absolute inset-0 p-8 flex flex-col justify-end max-w-lg">
+                        <span class="text-cortex-secondary text-xs font-bold uppercase mb-2">Customer Engagement</span>
+                        <h3 class="text-2xl font-bold text-white mb-2">Enhanced Customer Experience</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed">
+                            Provides <strong>personal shopper support, tailored offers, free shipping (NCR)</strong>, and warranty coverage to elevate convenience and trust in online purchasing.
+                        </p>
+                     </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16" data-aos="fade-up">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+                <div class="max-w-3xl">
+                    <span class="inline-block py-1 px-3 rounded-full bg-cortex-accent/30 text-cortex-primary text-xs font-bold tracking-widest uppercase mb-6">Our Brands</span>
+                    <h2 class="font-display text-4xl md:text-5xl font-bold text-slate-900 mt-2 mb-6">Our Brand Portfolio</h2>
+                    <p class="text-slate-600 text-lg leading-relaxed">
+                        We build brands people discover, engage with, and love—online, in-store, and everywhere in between.
+                    </p>
+                </div>
+                <a href="#contact" class="hidden md:inline-flex items-center px-6 py-3 border border-slate-200 rounded-full text-slate-600 hover:bg-slate-50 hover:text-cortex-primary transition-all shadow-sm hover:shadow-md">
+                    Partner With Us <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="flex flex-col w-full gap-16 md:gap-24">
+            <!-- Brand 1: Mang Kosme (Text Left, Image Right) -->
+            <div id="brand-mangkosme" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+                <div class="flex flex-col lg:flex-row w-full group min-h-[500px] rounded-3xl overflow-hidden shadow-lg border border-slate-100 hover:shadow-2xl transition-all duration-500 bg-slate-50">
+                    <!-- Text Side (Desktop Left) -->
+                    <div class="w-full lg:w-1/2 flex items-center order-2 lg:order-1" data-aos="fade-right">
+                        <div class="w-full px-8 py-12 lg:p-16">
+                            <div class="mb-6">
+                                <span class="text-cortex-primary font-medium text-sm uppercase tracking-wider block mb-3">Business Solutions</span>
+                                <div class="flex items-center gap-4">
+                                    <a href="https://mangkosme.com/" target="_blank" rel="noopener noreferrer" class="inline-block">
+                                        <img src="images/sitelogo-mangkosme.png" alt="Mang Kosme Logo" class="h-10 w-auto border-radius-round">
+                                    </a>
+                                    <a href="https://mangkosme.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit Mang Kosme Website" class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-slate-100 text-cortex-primary hover:bg-cortex-primary hover:text-white transition-all duration-300 shadow-sm hover:shadow-md" title="Visit Website">
+                                        <i class="fas fa-external-link-alt text-sm"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="text-slate-600 mb-10 text-lg md:text-xl leading-relaxed">
+                                Affordable home appliance essentials for everyday living. A trusted online outlet offering quality, budget-friendly appliances that support both households and small businesses.
+                            </p>
+                            <div class="flex flex-wrap gap-3 mb-10">
+                                <span class="inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium bg-white text-slate-600 border border-slate-200 shadow-sm">E-commerce</span>
+                                <span class="inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium bg-white text-slate-600 border border-slate-200 shadow-sm">Business Solutions</span>
+                                <span class="inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium bg-white text-slate-600 border border-slate-200 shadow-sm">Retail</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Image Side (Desktop Right) -->
+                    <div class="w-full lg:w-1/2 relative order-1 lg:order-2 overflow-hidden" data-aos="fade-left">
+                        <a href="https://mangkosme.com/" target="_blank" rel="noopener noreferrer" class="block w-full h-full relative" aria-label="View Mang Kosme Project Image">
+                            <img src="images/screen-mangkosme.png" alt="Mang Kosme" class="w-full h-full object-cover lg:object-contain transform group-hover:scale-105 transition-transform duration-1000 p-4 lg:p-8 rounded-3xl">
+                            <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/10 transition-colors duration-500"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Brand 2: ConcepStore (Image Left, Text Right) -->
+            <div id="brand-concepstore" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+                <div class="flex flex-col lg:flex-row w-full group min-h-[500px] rounded-3xl overflow-hidden shadow-lg border border-slate-100 hover:shadow-2xl transition-all duration-500 bg-slate-50">
+                    <!-- Image Side (Desktop Left) -->
+                    <div class="w-full lg:w-1/2 relative order-1 lg:order-1 overflow-hidden" data-aos="fade-right">
+                        <a href="http://concepstore.ph/" target="_blank" rel="noopener noreferrer" class="block w-full h-full relative" aria-label="View ConcepStore Project Image">
+                            <img src="images/screen-concepstore.png" alt="ConcepStore" class="w-full h-full object-cover lg:object-contain transform group-hover:scale-105 transition-transform duration-1000 p-4 lg:p-8 rounded-3xl">
+                            <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/10 transition-colors duration-500"></div>
+                        </a>
+                    </div>
+                    <!-- Text Side (Desktop Right) -->
+                    <div class="w-full lg:w-1/2 flex items-center order-2 lg:order-2" data-aos="fade-left">
+                        <div class="w-full px-8 py-12 lg:p-16">
+                            <div class="mb-6">
+                                <span class="text-cortex-secondary font-medium text-sm uppercase tracking-wider block mb-3">Lifestyle E-commerce</span>
+                                <div class="flex items-center gap-4">
+                                    <a href="http://concepstore.ph/" target="_blank" rel="noopener noreferrer" class="inline-block">
+                                         <img src="images/sitelogo-concepstore.png" alt="ConcepStore Logo" class="h-10 w-auto">
+                                    </a>
+                                    <a href="http://concepstore.ph/" target="_blank" rel="noopener noreferrer" aria-label="Visit ConcepStore Website" class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-slate-100 text-cortex-secondary hover:bg-cortex-secondary hover:text-white transition-all duration-300 shadow-sm hover:shadow-md" title="Visit Website">
+                                        <i class="fas fa-external-link-alt text-sm"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="text-slate-600 mb-10 text-lg md:text-xl leading-relaxed">
+                                Curated products designed to elevate modern lifestyles. A premier destination for reliable home and business appliances from leading brands like Carrier, Condura, Toshiba, and Midea.
+                            </p>
+                            <div class="flex flex-wrap gap-3 mb-10">
+                                <span class="inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium bg-white text-slate-600 border border-slate-200 shadow-sm">E-commerce</span>
+                                <span class="inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium bg-white text-slate-600 border border-slate-200 shadow-sm">Lifestyle</span>
+                                <span class="inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium bg-white text-slate-600 border border-slate-200 shadow-sm">Home Solutions</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Brand 3: SharkNinja Philippines (Text Left, Image Right) -->
+            <div id="brand-sharkninja" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+                <div class="flex flex-col lg:flex-row w-full group min-h-[500px] rounded-3xl overflow-hidden shadow-lg border border-slate-100 hover:shadow-2xl transition-all duration-500 bg-slate-50">
+                    <!-- Text Side (Desktop Left) -->
+                    <div class="w-full lg:w-1/2 flex items-center order-2 lg:order-1" data-aos="fade-right">
+                        <div class="w-full px-8 py-12 lg:p-16">
+                            <div class="mb-6">
+                                <span class="text-cortex-primary font-medium text-sm uppercase tracking-wider block mb-3">Premium Appliances</span>
+                                <div class="flex items-center gap-4">
+                                    <a href="https://sharkninja.com.ph/" target="_blank" rel="noopener noreferrer" class="inline-block">
+                                         <img src="images/sitelogo-sharkninja.png" alt="SharkNinja Logo" class="h-10 w-auto">
+                                    </a>
+                                    <a href="https://sharkninja.com.ph/" target="_blank" rel="noopener noreferrer" aria-label="Visit SharkNinja Philippines Website" class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-slate-100 text-cortex-primary hover:bg-cortex-primary hover:text-white transition-all duration-300 shadow-sm hover:shadow-md" title="Visit Website">
+                                        <i class="fas fa-external-link-alt text-sm"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="text-slate-600 mb-10 text-lg md:text-xl leading-relaxed">
+                                Premium home appliances delivering cutting-edge performance. Bringing innovative, high-efficiency vacuums and kitchen tools that enhance convenience and elevate the modern home.
+                            </p>
+                            <div class="flex flex-wrap gap-3 mb-10">
+                                <span class="inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium bg-white text-slate-600 border border-slate-200 shadow-sm">Innovation</span>
+                                <span class="inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium bg-white text-slate-600 border border-slate-200 shadow-sm">Home Tech</span>
+                                <span class="inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium bg-white text-slate-600 border border-slate-200 shadow-sm">Premium Retail</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Image Side (Desktop Right) -->
+                    <div class="w-full lg:w-1/2 relative order-1 lg:order-2 overflow-hidden" data-aos="fade-left">
+                        <a href="https://sharkninja.com.ph/" target="_blank" rel="noopener noreferrer" class="block w-full h-full relative" aria-label="View SharkNinja Project Image">
+                            <img src="images/screen-sharkninja.png" alt="SharkNinja Philippines" class="w-full h-full object-cover lg:object-contain transform group-hover:scale-105 transition-transform duration-1000 p-4 lg:p-8 rounded-3xl">
+                            <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/10 transition-colors duration-500"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center md:hidden">
+            <a href="#contact" class="inline-flex items-center px-6 py-3 border border-slate-200 rounded-full text-slate-600 hover:bg-white hover:text-cortex-primary transition-all shadow-sm">
+                Partner With Us <i class="fas fa-arrow-right ml-2"></i>
+            </a>
+        </div>
+    </section>
 
     <!-- News Section -->
     <section id="news" class="py-24 bg-slate-50">
@@ -367,10 +618,10 @@
                         <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold text-cortex-primary">Business & Growth</div>
                     </div>
                     <div class="p-8">
-                        <div class="text-sm text-slate-500 mb-3">December 2024</div>
-                        <h3 class="font-display text-xl font-bold text-slate-900 mb-3 group-hover:text-cortex-primary transition-colors">From Viral to Valuable: How Mang Kosme Turned Attention into a Scalable Business</h3>
-                        <p class="text-slate-600 mb-4">Mang Kosme isn't just loud online, it's smart. Backed by its award-winning partnership with Marketplace and ...</p>
-                        <a href="#" class="inline-flex items-center text-cortex-primary font-semibold hover:text-cortex-secondary transition-colors">Read More <i class="fas fa-arrow-right ml-2 text-xs"></i></a>
+                        <div class="text-sm text-slate-500 mb-3">December 2025</div>
+                        <h3 class="font-display text-xl font-bold text-slate-900 mb-3 group-hover:text-cortex-primary transition-colors">SharkNinja ramps up its presence with new retail pop-up stores in three premier Metro Manila malls</h3>
+                        <p class="text-slate-600 mb-4">See it, feel it, love it, own it—visit SharkNinja’s Metro Manila pop-ups.  SharkNinja is continuously expanding, bringing products closer to customers.</p>
+                        <!-- <a href="#" class="inline-flex items-center text-cortex-primary font-semibold hover:text-cortex-secondary transition-colors">Read More <i class="fas fa-arrow-right ml-2 text-xs"></i></a> -->
                     </div>
                 </div>
 
@@ -381,10 +632,10 @@
                         <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold text-cortex-secondary">Retail Expansion</div>
                     </div>
                     <div class="p-8">
-                        <div class="text-sm text-slate-500 mb-3">November 2024</div>
-                        <h3 class="font-display text-xl font-bold text-slate-900 mb-3 group-hover:text-cortex-secondary transition-colors">Online First, Everywhere Next: How SharkNinja Took Slushi from Screen to Store</h3>
-                        <p class="text-slate-600 mb-4">SharkNinja played the long game, and won. By building demand online first, then rolling out physical retail with ...</p>
-                        <a href="#" class="inline-flex items-center text-cortex-secondary font-semibold hover:text-cortex-primary transition-colors">Read More <i class="fas fa-arrow-right ml-2 text-xs"></i></a>
+                        <div class="text-sm text-slate-500 mb-3">December 2025</div>
+                        <h3 class="font-display text-xl font-bold text-slate-900 mb-3 group-hover:text-cortex-secondary transition-colors">MangKosme.com: Affordable, High-Quality, Always Discoverable</h3>
+                        <p class="text-slate-600 mb-4">Shop. Share. Repeat.  One of Cortex’s fastest growing brands, MangKosme’s products are high-quality, affordable, and always trending—reaching millions online and available at its premium warehouse 7 days a week.</p>
+                        <!-- <a href="#" class="inline-flex items-center text-cortex-secondary font-semibold hover:text-cortex-primary transition-colors">Read More <i class="fas fa-arrow-right ml-2 text-xs"></i></a> -->
                     </div>
                 </div>
 
@@ -395,145 +646,13 @@
                         <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold text-cortex-primary">Customer Experience</div>
                     </div>
                     <div class="p-8">
-                        <div class="text-sm text-slate-500 mb-3">October 2024</div>
-                        <h3 class="font-display text-xl font-bold text-slate-900 mb-3 group-hover:text-cortex-primary transition-colors">How ConcepStore Turns Personalization into Performance
-</h3>
-                        <p class="text-slate-600 mb-4">ConcepStore doesn’t just say “customer-first”—it operates that way. From personalized online experiences...</p>
-                        <a href="#" class="inline-flex items-center text-cortex-primary font-semibold hover:text-cortex-secondary transition-colors">Read More <i class="fas fa-arrow-right ml-2 text-xs"></i></a>
+                        <div class="text-sm text-slate-500 mb-3">December 2025</div>
+                        <h3 class="font-display text-xl font-bold text-slate-900 mb-3 group-hover:text-cortex-primary transition-colors">ConcepStore: Effortless Lifestyle Shopping</h3>
+                        <p class="text-slate-600 mb-4">With nearly 2,000 loyal customers and thousands more trying it every day, ConcepStore combines online convenience with a personal touch. The concierge service makes shopping effortless—helping you get exactly what you want, when you want it.</p>
+                        <!-- <a href="#" class="inline-flex items-center text-cortex-primary font-semibold hover:text-cortex-secondary transition-colors">Read More <i class="fas fa-arrow-right ml-2 text-xs"></i></a> -->
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="pt-24 pb-0 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16" data-aos="fade-up">
-            <div class="flex flex-col md:flex-row justify-between items-center gap-6">
-                <div class="max-w-3xl">
-                    <span class="inline-block py-1 px-3 rounded-full bg-cortex-accent/30 text-cortex-primary text-xs font-bold tracking-widest uppercase mb-6">Our Brands</span>
-                    <h2 class="font-display text-4xl md:text-5xl font-bold text-slate-900 mt-2 mb-6">Our Brand Portfolio</h2>
-                    <p class="text-slate-600 text-lg leading-relaxed">
-                        Discover how we empower businesses with tailored digital solutions. From lifestyle e-commerce to premium retail, we build platforms that drive growth and engagement.
-                    </p>
-                </div>
-                <a href="#contact" class="hidden md:inline-flex items-center px-6 py-3 border border-slate-200 rounded-full text-slate-600 hover:bg-slate-50 hover:text-cortex-primary transition-all shadow-sm hover:shadow-md">
-                    Partner With Us <i class="fas fa-arrow-right ml-2"></i>
-                </a>
-            </div>
-        </div>
-
-        <div class="flex flex-col w-full gap-16 md:gap-24">
-            <!-- Brand 1: Mang Kosme (Text Left, Image Right) -->
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-                <div class="flex flex-col lg:flex-row w-full group min-h-[500px] rounded-3xl overflow-hidden shadow-lg border border-slate-100 hover:shadow-2xl transition-all duration-500 bg-slate-50">
-                    <!-- Text Side (Desktop Left) -->
-                    <div class="w-full lg:w-1/2 flex items-center order-2 lg:order-1" data-aos="fade-right">
-                        <div class="w-full px-8 py-12 lg:p-16">
-                            <div class="mb-6">
-                                <span class="text-cortex-primary font-medium text-sm uppercase tracking-wider block mb-3">Business Solutions</span>
-                                <a href="https://mangkosme.com/" target="_blank" rel="noopener noreferrer" class="inline-block">
-                                    <img src="images/sitelogo-mangkosme.png" alt="Mang Kosme Logo" class="h-10 w-auto">
-                                </a>
-                            </div>
-                            <p class="text-slate-600 mb-10 text-lg md:text-xl leading-relaxed">
-                                Affordable home appliance essentials for everyday living. A trusted online outlet offering quality, budget-friendly appliances that support both households and small businesses.
-                            </p>
-                            <div class="flex flex-wrap gap-3 mb-10">
-                                <span class="inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium bg-white text-slate-600 border border-slate-200 shadow-sm">E-commerce</span>
-                                <span class="inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium bg-white text-slate-600 border border-slate-200 shadow-sm">Business Solutions</span>
-                                <span class="inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium bg-white text-slate-600 border border-slate-200 shadow-sm">Retail</span>
-                            </div>
-                            <a href="https://mangkosme.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit Mang Kosme Website" class="inline-flex items-center text-lg text-cortex-primary font-bold hover:text-cortex-secondary transition-colors group/link">
-                                Visit Website <i class="fas fa-external-link-alt ml-3 text-sm transform group-hover/link:translate-x-1 transition-transform"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- Image Side (Desktop Right) -->
-                    <div class="w-full lg:w-1/2 relative order-1 lg:order-2 overflow-hidden" data-aos="fade-left">
-                        <a href="https://mangkosme.com/" target="_blank" rel="noopener noreferrer" class="block w-full h-full relative" aria-label="View Mang Kosme Project Image">
-                            <img src="images/screen-mangkosme.png" alt="Mang Kosme" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-1000">
-                            <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/10 transition-colors duration-500"></div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Brand 2: ConcepStore (Image Left, Text Right) -->
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-                <div class="flex flex-col lg:flex-row w-full group min-h-[500px] rounded-3xl overflow-hidden shadow-lg border border-slate-100 hover:shadow-2xl transition-all duration-500 bg-slate-50">
-                    <!-- Image Side (Desktop Left) -->
-                    <div class="w-full lg:w-1/2 relative order-1 lg:order-1 overflow-hidden" data-aos="fade-right">
-                        <a href="http://concepstore.ph/" target="_blank" rel="noopener noreferrer" class="block w-full h-full relative" aria-label="View ConcepStore Project Image">
-                            <img src="images/screen-concepstore.png" alt="ConcepStore" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-1000">
-                            <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/10 transition-colors duration-500"></div>
-                        </a>
-                    </div>
-                    <!-- Text Side (Desktop Right) -->
-                    <div class="w-full lg:w-1/2 flex items-center order-2 lg:order-2" data-aos="fade-left">
-                        <div class="w-full px-8 py-12 lg:p-16">
-                            <div class="mb-6">
-                                <span class="text-cortex-secondary font-medium text-sm uppercase tracking-wider block mb-3">Lifestyle E-commerce</span>
-                                <a href="http://concepstore.ph/" target="_blank" rel="noopener noreferrer" class="inline-block">
-                                     <img src="images/sitelogo-concepstore.png" alt="ConcepStore Logo" class="h-10 w-auto">
-                                </a>
-                            </div>
-                            <p class="text-slate-600 mb-10 text-lg md:text-xl leading-relaxed">
-                                Curated products designed to elevate modern lifestyles. A premier destination for reliable home and business appliances from leading brands like Carrier, Condura, Toshiba, and Midea.
-                            </p>
-                            <div class="flex flex-wrap gap-3 mb-10">
-                                <span class="inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium bg-white text-slate-600 border border-slate-200 shadow-sm">E-commerce</span>
-                                <span class="inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium bg-white text-slate-600 border border-slate-200 shadow-sm">Lifestyle</span>
-                                <span class="inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium bg-white text-slate-600 border border-slate-200 shadow-sm">Home Solutions</span>
-                            </div>
-                            <a href="http://concepstore.ph/" target="_blank" rel="noopener noreferrer" aria-label="Visit ConcepStore Website" class="inline-flex items-center text-cortex-secondary font-bold hover:text-cortex-primary transition-colors group/link">
-                                Visit Website <i class="fas fa-external-link-alt ml-3 text-sm transform group-hover/link:translate-x-1 transition-transform"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Brand 3: SharkNinja Philippines (Text Left, Image Right) -->
-            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
-                <div class="flex flex-col lg:flex-row w-full group min-h-[500px] rounded-3xl overflow-hidden shadow-lg border border-slate-100 hover:shadow-2xl transition-all duration-500 bg-slate-50">
-                    <!-- Text Side (Desktop Left) -->
-                    <div class="w-full lg:w-1/2 flex items-center order-2 lg:order-1" data-aos="fade-right">
-                        <div class="w-full px-8 py-12 lg:p-16">
-                            <div class="mb-6">
-                                <span class="text-cortex-primary font-medium text-sm uppercase tracking-wider block mb-3">Premium Appliances</span>
-                                <a href="https://sharkninja.com.ph/" target="_blank" rel="noopener noreferrer" class="inline-block">
-                                     <img src="images/sitelogo-sharkninja.png" alt="SharkNinja Logo" class="h-10 w-auto">
-                                </a>
-                            </div>
-                            <p class="text-slate-600 mb-10 text-lg md:text-xl leading-relaxed">
-                                Premium home appliances delivering cutting-edge performance. Bringing innovative, high-efficiency vacuums and kitchen tools that enhance convenience and elevate the modern home.
-                            </p>
-                            <div class="flex flex-wrap gap-3 mb-10">
-                                <span class="inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium bg-white text-slate-600 border border-slate-200 shadow-sm">Innovation</span>
-                                <span class="inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium bg-white text-slate-600 border border-slate-200 shadow-sm">Home Tech</span>
-                                <span class="inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium bg-white text-slate-600 border border-slate-200 shadow-sm">Premium Retail</span>
-                            </div>
-                            <a href="https://sharkninja.com.ph/" target="_blank" rel="noopener noreferrer" aria-label="Visit SharkNinja Philippines Website" class="inline-flex items-center text-cortex-primary font-bold hover:text-cortex-secondary transition-colors group/link">
-                                Visit Website <i class="fas fa-external-link-alt ml-3 text-sm transform group-hover/link:translate-x-1 transition-transform"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- Image Side (Desktop Right) -->
-                    <div class="w-full lg:w-1/2 relative order-1 lg:order-2 overflow-hidden" data-aos="fade-left">
-                        <a href="https://sharkninja.com.ph/" target="_blank" rel="noopener noreferrer" class="block w-full h-full relative" aria-label="View SharkNinja Project Image">
-                            <img src="images/screen-sharkninja.png" alt="SharkNinja Philippines" class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-1000">
-                            <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/10 transition-colors duration-500"></div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center md:hidden">
-            <a href="#contact" class="inline-flex items-center px-6 py-3 border border-slate-200 rounded-full text-slate-600 hover:bg-white hover:text-cortex-primary transition-all shadow-sm">
-                Partner With Us <i class="fas fa-arrow-right ml-2"></i>
-            </a>
         </div>
     </section>
 
@@ -611,6 +730,7 @@
                 
                 <div class="text-center md:text-right">
                     <ul class="flex flex-wrap justify-center md:justify-end gap-8">
+                        
                         <li><a href="#about" class="hover:text-cortex-primary transition-colors">About Us</a></li>
                         <li><a href="#portfolio" class="hover:text-cortex-primary transition-colors">Portfolio</a></li>
                         <li><a href="#news" class="hover:text-cortex-primary transition-colors">News</a></li>
@@ -652,7 +772,7 @@
                                 <div class="flex flex-col space-y-6">
                                     <a href="#home" class="text-lg font-medium text-slate-900 hover:text-cortex-primary transition-colors mobile-link">Home</a>
                                     <a href="#about" class="text-lg font-medium text-slate-900 hover:text-cortex-primary transition-colors mobile-link">About</a>
-                                    <a href="#portfolio" class="text-lg font-medium text-slate-900 hover:text-cortex-primary transition-colors mobile-link">Portfolio</a>
+                                    <a href="#portfolio-overview" class="text-lg font-medium text-slate-900 hover:text-cortex-primary transition-colors mobile-link">Portfolio</a>
                                     <a href="#news" class="text-lg font-medium text-slate-900 hover:text-cortex-primary transition-colors mobile-link">News</a>
                                 </div>
                                 
