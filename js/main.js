@@ -7,12 +7,14 @@ document.addEventListener('DOMContentLoaded', function() {
     const mobileLinks = document.querySelectorAll('.mobile-link');
     
     function openMenu() {
+        if (!backdrop || !panel) return;
         backdrop.classList.remove('opacity-0', 'pointer-events-none');
         panel.classList.remove('translate-x-full');
         document.body.style.overflow = 'hidden';
     }
     
     function closeMenu() {
+        if (!backdrop || !panel) return;
         backdrop.classList.add('opacity-0', 'pointer-events-none');
         panel.classList.add('translate-x-full');
         document.body.style.overflow = '';
@@ -52,6 +54,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const navbar = document.getElementById('navbar');
     
     function updateNavbar() {
+        if (!navbar) return;
         if (window.scrollY > 20) {
             navbar.classList.add('bg-slate-900/90', 'backdrop-blur-md', 'shadow-lg', 'border-b', 'border-white/10');
         } else {
@@ -122,10 +125,12 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     // AOS Animation Initialization
-    AOS.init({
-        duration: 800,
-        easing: 'ease-out-cubic',
-        once: true,
-        offset: 50
-    });
+    if (typeof AOS !== 'undefined') {
+        AOS.init({
+            duration: 800,
+            easing: 'ease-out-cubic',
+            once: true,
+            offset: 50
+        });
+    }
 });

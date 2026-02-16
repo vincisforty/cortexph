@@ -1,0 +1,61 @@
+/*
+Theme Name: Cortex PH
+Theme URI: https://cortex.ph/
+Author: Cortex Technologies Corp
+Author URI: https://cortex.ph/
+Description: Cortex PH WordPress theme with modern marketing case study portfolio pages.
+Version: 1.0.0
+Requires at least: 6.0
+Tested up to: 6.7
+Requires PHP: 7.4
+Text Domain: cortex-ph
+*/
+
+/* Core resets for WordPress media blocks and embeds */
+.wp-caption,
+.wp-block-image,
+.wp-block-embed {
+    max-width: 100%;
+}
+
+:root {
+    --cortex-primary: #da8622;
+    --cortex-secondary: #a22446;
+    --cortex-accent: #f4ce7b;
+    --cortex-dark: #0f172a;
+    --cortex-light: #f1d6cc;
+}
+
+/* Branding fallback utilities in case Tailwind runtime config fails to load */
+.text-cortex-primary { color: var(--cortex-primary); }
+.text-cortex-secondary { color: var(--cortex-secondary); }
+.text-cortex-accent { color: var(--cortex-accent); }
+.bg-cortex-primary { background-color: var(--cortex-primary); }
+.bg-cortex-secondary { background-color: var(--cortex-secondary); }
+.bg-cortex-accent { background-color: var(--cortex-accent); }
+.bg-cortex-accent\/20 { background-color: rgb(244 206 123 / 0.2); }
+.bg-cortex-accent\/30 { background-color: rgb(244 206 123 / 0.3); }
+.border-cortex-accent { border-color: var(--cortex-accent); }
+.border-cortex-accent\/40 { border-color: rgb(244 206 123 / 0.4); }
+.border-cortex-accent\/50 { border-color: rgb(244 206 123 / 0.5); }
+.border-cortex-accent\/60 { border-color: rgb(244 206 123 / 0.6); }
+.border-cortex-primary\/20 { border-color: rgb(218 134 34 / 0.2); }
+.border-cortex-primary\/30 { border-color: rgb(218 134 34 / 0.3); }
+.border-cortex-secondary\/20 { border-color: rgb(162 36 70 / 0.2); }
+.hover\:bg-cortex-primary:hover { background-color: var(--cortex-primary); }
+.hover\:bg-cortex-secondary:hover { background-color: var(--cortex-secondary); }
+.hover\:text-cortex-primary:hover { color: var(--cortex-primary); }
+.hover\:text-cortex-secondary:hover { color: var(--cortex-secondary); }
+.hover\:text-cortex-accent:hover { color: var(--cortex-accent); }
+.hover\:border-cortex-accent:hover { border-color: var(--cortex-accent); }
+.from-cortex-primary {
+    --tw-gradient-from: var(--cortex-primary) var(--tw-gradient-from-position);
+    --tw-gradient-to: rgb(218 134 34 / 0) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.via-cortex-accent {
+    --tw-gradient-to: rgb(244 206 123 / 0) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--cortex-accent) var(--tw-gradient-via-position), var(--tw-gradient-to);
+}
+.to-cortex-accent { --tw-gradient-to: var(--cortex-accent) var(--tw-gradient-to-position); }
+.to-cortex-secondary { --tw-gradient-to: var(--cortex-secondary) var(--tw-gradient-to-position); }

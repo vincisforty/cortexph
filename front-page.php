@@ -1,0 +1,670 @@
+<?php
+get_header();
+?>
+    <!-- Hero Section -->
+    <section id="home" class="relative min-h-screen flex items-center pt-20 lg:pb-40 overflow-hidden bg-hero-pattern bg-cover bg-center bg-no-repeat">
+
+        <!-- Video Background -->
+        <video autoplay loop muted playsinline poster="<?php echo get_template_directory_uri(); ?>/images/coline-beulin-oLWGI-Q76Yc-unsplash.jpg" class="absolute inset-0 w-full h-full object-cover z-0">
+            <source src="<?php echo get_template_directory_uri(); ?>/videos/cortex%20hero%20video%20mobile.webm" type="video/webm" media="(max-width: 767px)">
+            <source src="<?php echo get_template_directory_uri(); ?>/videos/cortex%20hero%20video%20desktop.webm" type="video/webm">
+        </video>
+
+        <!-- Background Image with Overlay -->
+        <div class="absolute inset-0 z-0">            
+            <!-- Ambient Glow -->
+            <div class="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
+                <div class="absolute -top-[20%] -left-[10%] w-[50%] h-[50%] bg-orange-500/20 rounded-full blur-[120px] animate-blob"></div>
+                <div class="absolute top-[40%] right-[10%] w-[30%] h-[30%] bg-blue-500/20 rounded-full blur-[100px] animate-blob animation-delay-2000"></div>
+                <div class="absolute bottom-[10%] left-[20%] w-[20%] h-[20%] bg-purple-500/20 rounded-full blur-[80px] animate-blob animation-delay-4000"></div>
+            </div>
+        </div>
+        
+        <!-- Light Gradient Overlay for Readability -->
+        <div class="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-slate-900/80 to-transparent"></div>
+        
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full md:pt-20">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+            <div class="lg:col-span-7 space-y-10">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full relative z-10">
+                    <div class="max-w-3xl text-left space-y-8">
+                        
+                        <h1 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold leading-[1.1] text-slate-100 tracking-tight" data-aos="fade-up">
+                            Bringing <span class="text-transparent bg-clip-text bg-gradient-to-r from-cortex-primary via-cortex-accent to-cortex-secondary animate-shimmer">Next-Level </span> Retail Experiences to Life
+                        </h1>
+                        
+                        <p class="text-sm md:text-xl text-slate-300 max-w-xl leading-relaxed font-light" data-aos="fade-up" data-aos-delay="100">
+                            Cortex is a next-generation commerce company. We blend technology, design, and data to create seamless retail experiences that customers love — and partners trust.
+                        </p>
+
+                        <!-- <p class="text-lg md:text-xl text-slate-200 max-w-xl leading-relaxed font-normal" data-aos="fade-up" data-aos-delay="100">
+                            Every brand we launch, every platform we build, and every product we deliver reflects one belief: online commerce and retail can be smarter, faster, and infinitely more exciting.
+                        </p> -->
+                        
+                        <div class="flex flex-col sm:flex-row gap-4 pt-4" data-aos="fade-up" data-aos-delay="200">
+                            <a href="#contact" class="btn-glow inline-flex justify-center items-center px-8 py-4 bg-cortex-primary text-white font-bold rounded-full shadow-lg shadow-cortex-primary/30 hover:bg-cortex-secondary hover:-translate-y-1 overflow-hidden transition-all duration-300">
+                                Connect with us
+                                <i class="fas fa-arrow-right ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lg:col-span-5 relative hidden lg:block h-[600px]">
+                <div class="flex flex-col gap-6 absolute inset-0 justify-center">
+                            
+                            <!-- Card 1 -->
+                            <div class="group feature-card backdrop-blur-md bg-white/5 border border-white/10 p-8 rounded-2xl cursor-pointer transition-all duration-500 ease-out w-full max-w-sm hover:bg-white/10 hover:border-orange-500/30 hover:shadow-2xl hover:shadow-orange-500/10 hover:scale-105 self-start">
+                                <div class="flex items-start gap-5">
+                                    <div class="p-4 rounded-xl transition-all duration-300 shadow-inner bg-white/5 text-white group-hover:bg-orange-500 group-hover:text-white group-hover:shadow-orange-600/50">
+                                        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83Z"/><path d="m22 17.65-9.17 4.16a2 2 0 0 1-1.66 0L2 17.65"/><path d="m22 12.65-9.17 4.16a2 2 0 0 1-1.66 0L2 12.65"/></svg> -->
+
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="32" height="32" id="Seal-Shape--Streamline-Ultimate">
+                                        <desc>
+                                            Seal Shape Streamline Icon: https://streamlinehq.com
+                                        </desc>
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M11.2929 22.8809c0.3905 0.3906 1.0237 0.3906 1.4142 0l2.6874 -2.6874h3.8001c0.5523 0 1 -0.4477 1 -1v-3.8001l2.6863 -2.6863c0.3906 -0.3905 0.3906 -1.0237 0 -1.4142l-2.6863 -2.68634V4.80554c0 -0.55228 -0.4477 -1 -1 -1h-3.801l-2.6865 -2.68647c-0.3905 -0.39053 -1.0237 -0.39053 -1.4142 0L8.60641 3.80554H4.80664c-0.55228 0 -1 0.44772 -1 1v3.79978L1.11907 11.2929c-0.39053 0.3905 -0.39053 1.0237 0 1.4142l2.68757 2.6876v3.7988c0 0.5523 0.44772 1 1 1h3.79883l2.68743 2.6874Z" stroke-width="1.5"></path>
+                                        </svg>
+
+                                    </div>
+                                    <div>
+                                        <h3 class="text-xl font-bold text-white mb-1">D2C Commerce</h3>
+                                        <p class="text-gray-100 text-md leading-snug">End-to-end online experiences that connect brands directly with customers.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card 2 -->
+                            <div class="group feature-card backdrop-blur-md bg-white/5 border border-white/10 p-8 rounded-2xl cursor-pointer transition-all duration-500 ease-out w-full max-w-sm hover:bg-white/10 hover:border-orange-500/30 hover:shadow-2xl hover:shadow-orange-500/10 hover:scale-105 self-start translate-x-8">
+                                <div class="flex items-start gap-5">
+                                    <div class="p-4 rounded-xl transition-all duration-300 shadow-inner bg-white/5 text-white group-hover:bg-orange-500 group-hover:text-white group-hover:shadow-orange-600/50">
+                                        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"/><path d="m3.3 7 8.7 5 8.7-5"/><path d="M12 22V12"/></svg> -->
+
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="32" height="32" id="Layers-Stacked--Streamline-Ultimate">
+                                        <desc>
+                                            Layers Stacked Streamline Icon: https://streamlinehq.com
+                                        </desc>
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m22.91 6.95302 -10.21 -5.281c-0.2189 -0.11304 -0.4617 -0.17202 -0.708 -0.17202 -0.2464 0 -0.4891 0.05898 -0.708 0.17202l-10.208 5.281c-0.10056 0.05168 -0.184927 0.13007 -0.243833 0.22657 -0.058906 0.0965 -0.090071 0.20737 -0.090071 0.32043s0.031165 0.22393 0.090071 0.32043 0.143273 0.17489 0.243833 0.22657L11.285 13.328c0.2189 0.1131 0.4616 0.172 0.708 0.172 0.2463 0 0.4891 -0.0589 0.708 -0.172L22.91 8.04702c0.1003 -0.05192 0.1843 -0.13041 0.243 -0.22688s0.0897 -0.20721 0.0897 -0.32012c0 -0.11291 -0.031 -0.22365 -0.0897 -0.32012 -0.0587 -0.09647 -0.1427 -0.17495 -0.243 -0.22688Z" stroke-width="1.5"></path>
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M0.757996 12.75 11.285 17.828c0.2189 0.113 0.4616 0.172 0.708 0.172 0.2463 0 0.4891 -0.059 0.708 -0.172l10.557 -5.078" stroke-width="1.5"></path>
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M0.757996 17.25 11.285 22.328c0.2189 0.113 0.4616 0.172 0.708 0.172 0.2463 0 0.4891 -0.059 0.708 -0.172l10.557 -5.078" stroke-width="1.5"></path>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-xl font-bold text-white mb-1">Retail Operations</h3>
+                                        <p class="text-gray-100 text-md leading-snug">Seamless store, inventory, and fulfillment operations built to scale.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Card 3 -->
+                            <div class="group feature-card backdrop-blur-md bg-white/5 border border-white/10 p-8 rounded-2xl cursor-pointer transition-all duration-500 ease-out w-full max-w-sm hover:bg-white/10 hover:border-orange-500/30 hover:shadow-2xl hover:shadow-orange-500/10 hover:scale-105 self-start translate-x-16">
+                                <div class="flex items-start gap-5">
+                                    <div class="p-4 rounded-xl transition-all duration-300 shadow-inner bg-white/5 text-white group-hover:bg-orange-500 group-hover:text-white group-hover:shadow-orange-600/50">
+                                        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M18 17V9"/><path d="M13 17V5"/><path d="M8 17v-3"/></svg> -->
+                                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" width="32" height="32" id="Shape-Cube--Streamline-Ultimate">
+                                        <desc>
+                                            Shape Cube Streamline Icon: https://streamlinehq.com
+                                        </desc>
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M16.629 23.25c0.3975 -0.0001 0.7788 -0.158 1.06 -0.439l5.122 -5.122c0.281 -0.2812 0.4389 -0.6625 0.439 -1.06V2.25c0 -0.39782 -0.158 -0.77936 -0.4393 -1.06066C22.5294 0.908035 22.1478 0.75 21.75 0.75H7.371c-0.39755 0.000085 -0.7788 0.157982 -1.06 0.439L1.189 6.311c-0.281018 0.2812 -0.438915 0.66245 -0.439 1.06V21.75c0 0.3978 0.158035 0.7794 0.43934 1.0607 0.2813 0.2813 0.66284 0.4393 1.06066 0.4393h14.379Z" stroke-width="1.5"></path>
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M17.25 23.115V6.75" stroke-width="1.5"></path>
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M6.75 17.25h16.365" stroke-width="1.5"></path>
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M1.189 22.811 6.75 17.25" stroke-width="1.5"></path>
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="m17.25 6.74996 5.561 -5.561" stroke-width="1.5"></path>
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75H0.88501" stroke-width="1.5"></path>
+                                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M6.75 0.88501V17.25" stroke-width="1.5"></path>
+                                        </svg>
+                                    </div>
+                                    <div>
+                                        <h3 class="text-xl font-bold text-white mb-1">Growth Marketing</h3>
+                                        <p class="text-gray-100 text-md leading-snug">Data-driven campaigns that attract, convert, and retain customers.</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+            </div>
+        </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-2 opacity-60 hover:opacity-100 transition-opacity duration-300">
+            <span class="text-[10px] uppercase tracking-[0.2em] text-white/50">Scroll</span>
+            <div class="w-[26px] h-[42px] border-2 border-white/20 rounded-full flex justify-center pt-2 backdrop-blur-sm bg-white/5">
+                <div class="w-1 h-2 bg-orange-400 rounded-full animate-scroll"></div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white relative">
+        <!-- Subtle Background Gradients -->
+        <div class="absolute inset-0 overflow-hidden pointer-events-none">
+            <div class="absolute top-0 left-0 w-[500px] h-[500px] bg-cortex-primary opacity-[0.15] rounded-full filter blur-[100px] -translate-x-1/3 -translate-y-1/3 animate-blob"></div>
+            <div class="absolute bottom-0 right-0 w-[500px] h-[500px] bg-cortex-accent opacity-[0.3] rounded-full filter blur-[100px] translate-x-1/3 translate-y-1/3 animate-blob animation-delay-2000"></div>
+            <div class="absolute top-1/2 left-1/2 w-[600px] h-[600px] bg-slate-100 opacity-40 rounded-full filter blur-[80px] -translate-x-1/2 -translate-y-1/2 animate-blob animation-delay-4000"></div>
+        </div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-16 items-start">
+                <!-- Left Column: Sticky Content -->
+                <div class="" data-aos="fade-right">
+                    <span class="inline-block py-1 px-3 rounded-full bg-cortex-accent/30 text-cortex-primary text-xs font-bold tracking-widest uppercase mb-6">About Us</span>
+                    <h2 class="font-display text-4xl md:text-5xl font-bold text-slate-900 mb-8 leading-tight md:leading-snug">
+                        We build brands <br>
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-cortex-primary to-cortex-accent">that win.</span>
+                    </h2>
+                    <p class="text-lg text-slate-600 mb-6 leading-relaxed">
+                        From global household names to emerging consumer favorites, Cortex turns great products into powerful digital experiences.
+                    </p>
+                    <strong class="text-lg text-slate-600 mb-8 leading-relaxed">We operate high-performance ecommerce platforms.</strong>
+                    <p class="text-lg text-slate-600 mb-8 leading-relaxed">
+                        
+                        Our team manages full-stack operations—from storefront design to logistics, customer care, and growth marketing.
+                    </p>
+                    <!-- <div class="flex items-center gap-4">
+                        <div class="flex -space-x-4">
+                            <div class="w-12 h-12 rounded-full border-2 border-white bg-slate-200 overflow-hidden">
+                                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Team" class="w-full h-full object-cover">
+                            </div>
+                            <div class="w-12 h-12 rounded-full border-2 border-white bg-slate-200 overflow-hidden">
+                                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Team" class="w-full h-full object-cover">
+                            </div>
+                            <div class="w-12 h-12 rounded-full border-2 border-white bg-slate-200 overflow-hidden">
+                                <img src="https://randomuser.me/api/portraits/men/86.jpg" alt="Team" class="w-full h-full object-cover">
+                            </div>
+                            <div class="w-12 h-12 rounded-full border-2 border-white bg-slate-100 flex items-center justify-center text-xs font-bold text-slate-600">+12</div>
+                        </div>
+                        <div class="text-sm font-medium text-slate-600">
+                            <span class="block text-slate-900 font-bold">Expert Team</span>
+                            Ready to build
+                        </div>
+                    </div> -->
+                </div>
+
+                <!-- Right Column: Mission & Vision -->
+                <div class="space-y-8 relative z-20">
+                    <!-- Mission -->
+                    <div class="group p-8 rounded-3xl bg-slate-50 border border-slate-100 shadow-lg hover:border-cortex-primary/20 hover:bg-white hover:shadow-2xl hover:shadow-cortex-primary/10 hover:-translate-y-1 transition-all duration-300" data-aos="fade-left" data-aos-delay="100">
+                        <div class="w-14 h-14 rounded-2xl bg-white shadow-sm flex items-center justify-center text-cortex-primary text-2xl mb-6 group-hover:scale-110 transition-transform duration-300">
+                            <i class="fas fa-bullseye"></i>
+                        </div>
+                        <span class="text-cortex-primary font-bold tracking-wider uppercase text-xs mb-2 block">Our Mission</span>
+                        <h3 class="font-display text-2xl font-bold text-slate-900 mb-3">Future-Ready Growth</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                            Cortex empowers brands to thrive in both digital and physical markets by delivering agile, data-driven, and scalable business solutions. We build sustainable growth engines that help brands stay competitive, relevant, and future-ready.
+                        </p>
+                    </div>
+
+                    <!-- Vision -->
+                    <!-- <div class="group p-8 rounded-3xl bg-slate-50 border border-slate-100 shadow-lg hover:border-cortex-secondary/20 hover:bg-white hover:shadow-2xl hover:shadow-cortex-secondary/10 hover:-translate-y-1 transition-all duration-300" data-aos="fade-left" data-aos-delay="200">
+                        <div class="w-14 h-14 rounded-2xl bg-white shadow-sm flex items-center justify-center text-cortex-secondary text-2xl mb-6 group-hover:scale-110 transition-transform duration-300">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <span class="text-cortex-secondary font-bold tracking-wider uppercase text-xs mb-2 block">Our Vision</span>
+                        <h3 class="font-display text-2xl font-bold text-slate-900 mb-3">Leading Brand Enablement</h3>
+                        <p class="text-slate-600 leading-relaxed">
+                           Cortex envisions becoming a leading force in smart brand enablement by driving strategies, innovation, and best practices across CIC brands and beyond. We aim to provide seamless, end-to-end solutions that help businesses stay visible, resilient, and built for long-term success. 
+                        </p>
+                    </div> -->
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Overview Section (Bento Grid) -->
+    <section id="portfolio-overview" class="py-20 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-12" data-aos="fade-up">
+                <span class="inline-block py-1 px-3 rounded-full bg-cortex-accent/30 text-cortex-primary text-xs font-bold tracking-widest uppercase mb-2">Portfolio Highlights</span>
+                <h2 class="font-display text-4xl md:text-5xl font-bold text-slate-900 mt-2 mb-6">Impact in Motion</h2>
+                <p class="text-slate-600 text-lg">Driving growth, innovation, and digital transformation across the Philippines.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 auto-rows-[300px]">
+                
+                <!-- ------------------------ -->
+                <!-- First Row Group for SharkNinja -->
+                <!-- ------------------------ -->
+
+                <!-- Large Card (Left) -->
+                <div class="lg:col-span-2 lg:row-span-2 relative group overflow-hidden rounded-3xl bg-slate-900 shadow-lg border border-slate-300 cursor-pointer hover:shadow-2xl hover:shadow-cortex-primary/20 transition-all duration-500" data-aos="fade-up">
+                    <a href="<?php echo esc_url(home_url('/sharkninja/')); ?>" class="absolute inset-0 z-10" aria-label="Go to product"></a>
+                    <img src="https://sharkninja.com.ph/cdn/shop/articles/03_Shark_Ninja_Article_01.png?v=1759725056&width=1200" alt="SharkNinja" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-80">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 p-8">
+                        <span class="text-xs font-bold tracking-wider uppercase text-cortex-accent mb-2 block">SharkNinja.com.ph</span>
+                        <h3 class="text-3xl font-bold text-white mb-2 leading-tight">Over 15,000 Units Sold</h3>
+                        <p class="text-slate-200 max-w-md">Across online and offline channels driven by strong execution and market penetration.​</p>
+                    </div>
+                </div>
+
+                <!-- Small Card 1 (Top Middle) - Solid Color -->
+                <div class="lg:col-span-1 lg:row-span-1 relative group overflow-hidden rounded-3xl bg-cortex-primary p-8 flex flex-col justify-between shadow-lg hover:shadow-2xl hover:bg-cortex-secondary transition-colors duration-300 border border-slate-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="flex justify-between items-start">
+                        <span class="text-white/80 text-sm font-medium uppercase tracking-wider">Growth</span>
+                        <i class="fas fa-chart-line text-white/60 text-xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-3xl font-bold text-white mb-1">Strengthened Brand Presence​</h3>
+                        <p class="text-white/90 text-sm font-medium"><strong></strong> in a fast-growing consumer market</p>
+                    </div>
+                </div>
+
+                <!-- Small Card 2 (Top Right) - Image -->
+                <div class="lg:col-span-1 lg:row-span-1 relative group overflow-hidden rounded-3xl bg-slate-900 shadow-lg border border-slate-300 hover:shadow-2xl transition-all duration-500" data-aos="fade-up" data-aos-delay="200">
+                     <img src="https://cdn.accentuate.io/9986510160189/1752474617908/DTC_NJA_FB245_WEBR_WebCollage_4.webp?v=1752474617908&transform=cover=1/resize=1024" alt="Team" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-30 group-hover:opacity-40">
+                     <div class="absolute inset-0 p-6 flex flex-col justify-end">
+                        <span class="text-cortex-accent text-xs font-bold uppercase mb-2"></span>
+                        <h3 class="text-xl font-bold text-white leading-tight">Strategic Category Expansion</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed">Broadened the portfolio with new kitchen and outdoor innovations to capture emerging consumer demand.
+                        </p>
+                        <!--
+                        <a href="#contact" class="mt-3 inline-flex items-center text-white text-sm font-medium hover:text-cortex-accent transition-colors">View Openings <i class="fas fa-arrow-right ml-2 text-xs"></i></a> -->
+                     </div>
+                </div>
+
+                <!-- Wide Card (Bottom Right - spanning 2 cols) -->
+                <div class="lg:col-span-2 lg:row-span-1 relative group overflow-hidden rounded-3xl bg-slate-900 shadow-lg border border-white/10 hover:shadow-2xl transition-all duration-500" data-aos="fade-up" data-aos-delay="300">
+                    <img src="https://cdn.shopify.com/s/files/1/0790/0548/3325/files/Untitled_design_14.jpg?v=1764732100" alt="Office" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-50 group-hover:opacity-40">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 to-transparent"></div>
+                     <div class="absolute inset-0 p-8 flex flex-col justify-end max-w-lg">
+                        <span class="text-cortex-accent text-xs font-bold uppercase mb-2">Strategy</span>
+                        <h3 class="text-2xl font-bold text-white mb-2">Retail Activation & Growth</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed">
+                            Executed 3 strategic pop-ups across high-traffic malls
+                        </p>
+                     </div>
+                </div>
+
+                <!-- ------------------------- -->
+                <!-- Second Row Group for Mang Kosme -->
+                <!-- ------------------------- -->
+
+                <!-- Small Card 1 (Top Middle) - Solid Color -->
+                <div class="lg:col-span-1 lg:row-span-1 relative group overflow-hidden rounded-3xl bg-cortex-secondary p-8 flex flex-col justify-between shadow-lg hover:shadow-2xl hover:bg-cortex-primary transition-colors duration-300 border border-slate-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="flex justify-between items-start">
+                        <span class="text-white/80 text-sm font-medium uppercase tracking-wider">Growth</span>
+                        <i class="fas fa-chart-line text-white/60 text-xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-3xl font-bold text-white mb-1">Championing the Negosyo Community</h3>
+                        <p class="text-white/90 text-sm font-medium">Empower SMEs with reliable, affordable appliances for business growth.</p>
+                    </div>
+                </div>
+
+                <!-- Small Card 2 (Top Right) - Image -->
+                <div class="lg:col-span-1 lg:row-span-1 relative group overflow-hidden rounded-3xl bg-slate-900 shadow-lg border border-slate-300 hover:shadow-2xl transition-all duration-500" data-aos="fade-up" data-aos-delay="200">
+                     <img src="<?php echo get_template_directory_uri(); ?>/images/grid-mangkosme-1.webp" alt="Team" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-30 group-hover:opacity-40">
+                     <div class="absolute inset-0 p-6 flex flex-col justify-end">
+                        <span class="text-cortex-accent text-xs font-bold uppercase mb-2"></span>
+                        <h3 class="text-xl font-bold text-white leading-tight">Expanded Brand Portfolio & Categories</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed">Giving customers more options beyond large appliances.​
+                        </p>
+                        <!--
+                        <a href="#contact" class="mt-3 inline-flex items-center text-white text-sm font-medium hover:text-cortex-accent transition-colors">View Openings <i class="fas fa-arrow-right ml-2 text-xs"></i></a> -->
+                     </div>
+                </div>
+
+                <!-- Large Card (Left) -->
+                <div class="lg:col-span-2 lg:row-span-2 relative group overflow-hidden rounded-3xl bg-slate-900 shadow-lg border border-slate-300 cursor-pointer hover:shadow-2xl hover:shadow-cortex-primary/20 transition-all duration-500" data-aos="fade-up">
+                    <a href="<?php echo esc_url(home_url('/mangkosme/')); ?>" class="absolute inset-0 z-10" aria-label="Go to product"></a>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/grid-mangkosme-2.webp" alt="SharkNinja" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-80">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 p-8">
+                        <span class="text-xs font-bold tracking-wider uppercase text-cortex-accent mb-2 block">MangKosme.com</span>
+                        <h3 class="text-3xl font-bold text-white mb-2 leading-tight">Best-in-class warehouse processes</h3>
+                        <p class="text-slate-200 max-w-md"><strong>Accelerated warehouse sales</strong>, supporting scalable business growth.​​</p>
+                    </div>
+                </div>
+
+                <!-- Wide Card (Bottom Right - spanning 2 cols) -->
+                <div class="lg:col-span-2 lg:row-span-1 relative group overflow-hidden rounded-3xl bg-slate-900 shadow-lg border border-white/10 hover:shadow-2xl transition-all duration-500" data-aos="fade-up" data-aos-delay="300">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/grid-mangkosme-4.webp" alt="Office" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-50 group-hover:opacity-40">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 to-transparent"></div>
+                     <div class="absolute inset-0 p-8 flex flex-col justify-end max-w-lg">
+                        <span class="text-cortex-accent text-xs font-bold uppercase mb-2">Customer Engagement</span>
+                        <h3 class="text-2xl font-bold text-white mb-2">500,000+ Strong Facebook Community</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed">
+                            High brand engagement, reach, and customer affinity.​
+                        </p>
+                     </div>
+                </div>
+
+                <!-- ------------------------- -->
+                <!-- Third Row Group for ConcepStore -->
+                <!-- ------------------------- -->  
+
+                <!-- Large Card (Left) -->
+                <div class="lg:col-span-2 lg:row-span-2 relative group overflow-hidden rounded-3xl bg-slate-900 shadow-lg border border-slate-300 cursor-pointer hover:shadow-2xl hover:shadow-cortex-primary/20 transition-all duration-500" data-aos="fade-up">
+                    <a href="<?php echo esc_url(home_url('/concepstore/')); ?>" class="absolute inset-0 z-10" aria-label="Go to product"></a>
+                    <img src="https://concepstore.ph/cdn/shop/articles/title_6abab136-6085-4dc2-beb6-cd9e99eabd45.jpg?v=1730271741&width=900" alt="SharkNinja" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-80">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 p-8">
+                        <span class="text-xs font-bold tracking-wider uppercase text-cortex-accent mb-2 block">ConcepStore.ph</span>
+                        <h3 class="text-3xl font-bold text-white mb-2 leading-tight">Solution Driven Appliances​</h3>
+                        <p class="text-slate-200 max-w-md">Reflects ConcepStore’s curated, product strategy for convenience and everyday value.​​</p>
+                    </div>
+                </div>
+
+                <!-- Small Card 1 (Top Middle) - Solid Color -->
+                <div class="lg:col-span-1 lg:row-span-1 relative group overflow-hidden rounded-3xl bg-cortex-primary p-8 flex flex-col justify-between shadow-lg hover:shadow-2xl hover:bg-cortex-secondary transition-colors duration-300 border border-slate-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="flex justify-between items-start">
+                        <span class="text-white/80 text-sm font-medium uppercase tracking-wider">Growth</span>
+                        <i class="fas fa-chart-line text-white/60 text-xl"></i>
+                    </div>
+                    <div>
+                        <h3 class="text-3xl font-bold text-white mb-1">E-Commerce Excellence & Growth</h3>
+                        <p class="text-white/90 text-sm font-medium"><strong></strong>Loyalty workflows, driving stronger customer engagement.</p>
+                    </div>
+                </div>
+
+                <!-- Small Card 2 (Top Right) - Image -->
+                <div class="lg:col-span-1 lg:row-span-1 relative group overflow-hidden rounded-3xl bg-slate-900 shadow-lg border border-slate-300 hover:shadow-2xl transition-all duration-500" data-aos="fade-up" data-aos-delay="200">
+                     <img src="https://concepstore.ph/cdn/shop/articles/Showroom_3_1_0b7d7fe6-4ef2-410d-8618-58bfa9314048.jpg?v=1711093210&width=628" alt="Team" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-30 group-hover:opacity-40">
+                     <div class="absolute inset-0 p-6 flex flex-col justify-end">
+                        <span class="text-cortex-accent text-xs font-bold uppercase mb-2">Strategy</span>
+                        <h3 class="text-xl font-bold text-white leading-tight">Trusted Brands & Diverse Portfolio</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed">Giving customers premium choice across categories.
+                        </p>
+                        <!--
+                        <a href="#contact" class="mt-3 inline-flex items-center text-white text-sm font-medium hover:text-cortex-accent transition-colors">View Openings <i class="fas fa-arrow-right ml-2 text-xs"></i></a> -->
+                     </div>
+                </div>
+
+                <!-- Wide Card (Bottom Right - spanning 2 cols) -->
+                <div class="lg:col-span-2 lg:row-span-1 relative group overflow-hidden rounded-3xl bg-slate-900 shadow-lg border border-white/10 hover:shadow-2xl transition-all duration-500" data-aos="fade-up" data-aos-delay="300">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/grid-concepstore-1.webp" alt="Office" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-50 group-hover:opacity-40">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 to-transparent"></div>
+                     <div class="absolute inset-0 p-8 flex flex-col justify-end max-w-lg">
+                        <span class="text-cortex-accent text-xs font-bold uppercase mb-2">Customer Engagement</span>
+                        <h3 class="text-2xl font-bold text-white mb-2">Enhanced Customer Experience</h3>
+                        <p class="text-slate-300 text-sm leading-relaxed">
+                            Provides <strong>personal shopper support, tailored offers, free shipping (NCR)</strong>, and warranty coverage to elevate convenience and trust in online purchasing.
+                        </p>
+                     </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-16" data-aos="fade-up">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+                <div class="max-w-3xl">
+                    <span class="inline-block py-1 px-3 rounded-full bg-cortex-accent/30 text-cortex-primary text-xs font-bold tracking-widest uppercase mb-6">Our Brands</span>
+                    <h2 class="font-display text-4xl md:text-5xl font-bold text-slate-900 mt-2 mb-6">Our Brand Portfolio</h2>
+                    <p class="text-slate-600 text-lg leading-relaxed">
+                        We build brands people discover, engage with, and love—online, in-store, and everywhere in between.
+                    </p>
+                </div>
+                <a href="#contact" class="hidden md:inline-flex items-center px-6 py-3 border border-slate-200 rounded-full text-slate-600 hover:bg-slate-50 hover:text-cortex-primary transition-all shadow-sm hover:shadow-md">
+                    Partner With Us <i class="fas fa-arrow-right ml-2"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="flex flex-col w-full gap-16 md:gap-24">
+            <!-- Brand 1: Mang Kosme (Text Left, Image Right) -->
+            <div id="brand-mangkosme" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+                <div class="flex flex-col lg:flex-row w-full group min-h-[500px] rounded-3xl overflow-hidden shadow-lg border border-slate-100 hover:shadow-2xl transition-all duration-500 bg-slate-50">
+                    <!-- Text Side (Desktop Left) -->
+                    <div class="w-full lg:w-1/2 flex items-center order-2 lg:order-1" data-aos="fade-right">
+                        <div class="w-full px-8 py-12 lg:p-16">
+                            <div class="mb-6">
+                                <span class="text-cortex-primary font-medium text-sm uppercase tracking-wider block mb-3">Business Solutions</span>
+                                <div class="flex items-center gap-4">
+                                    <a href="https://mangkosme.com/" target="_blank" rel="noopener noreferrer" class="inline-block">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/sitelogo-mangkosme.png" alt="Mang Kosme Logo" class="h-10 w-auto border-radius-round">
+                                    </a>
+                                    <a href="https://mangkosme.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit Mang Kosme Website" class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-slate-100 text-cortex-primary hover:bg-cortex-primary hover:text-white transition-all duration-300 shadow-sm hover:shadow-md" title="Visit Website">
+                                        <i class="fas fa-external-link-alt text-sm"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="text-slate-600 mb-10 text-lg md:text-xl leading-relaxed">
+                                Affordable home appliance essentials for everyday living. A trusted online outlet offering quality, budget-friendly appliances that support both households and small businesses.
+                            </p>
+                            <div class="flex flex-wrap gap-3 mb-10">
+                                <span class="inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium bg-white text-slate-600 border border-slate-200 shadow-sm">E-commerce</span>
+                                <span class="inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium bg-white text-slate-600 border border-slate-200 shadow-sm">Business Solutions</span>
+                                <span class="inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium bg-white text-slate-600 border border-slate-200 shadow-sm">Retail</span>
+                            </div>
+                            <a href="<?php echo esc_url(home_url('/mangkosme/')); ?>" class="inline-flex items-center px-6 py-3 rounded-full bg-slate-900 text-white font-semibold hover:bg-cortex-secondary transition-all duration-300">
+                                View Case Study <i class="fas fa-arrow-right ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Image Side (Desktop Right) -->
+                    <div class="w-full lg:w-1/2 relative order-1 lg:order-2 overflow-hidden" data-aos="fade-left">
+                        <a href="https://mangkosme.com/" target="_blank" rel="noopener noreferrer" class="block w-full h-full relative" aria-label="View Mang Kosme Project Image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/screen-mangkosme.png" alt="Mang Kosme" class="w-full h-full object-cover lg:object-contain transform group-hover:scale-105 transition-transform duration-1000 p-4 lg:p-8 rounded-3xl">
+                            <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/10 transition-colors duration-500"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Brand 2: ConcepStore (Image Left, Text Right) -->
+            <div id="brand-concepstore" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+                <div class="flex flex-col lg:flex-row w-full group min-h-[500px] rounded-3xl overflow-hidden shadow-lg border border-slate-100 hover:shadow-2xl transition-all duration-500 bg-slate-50">
+                    <!-- Image Side (Desktop Left) -->
+                    <div class="w-full lg:w-1/2 relative order-1 lg:order-1 overflow-hidden" data-aos="fade-right">
+                        <a href="http://concepstore.ph/" target="_blank" rel="noopener noreferrer" class="block w-full h-full relative" aria-label="View ConcepStore Project Image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/screen-concepstore.png" alt="ConcepStore" class="w-full h-full object-cover lg:object-contain transform group-hover:scale-105 transition-transform duration-1000 p-4 lg:p-8 rounded-3xl">
+                            <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/10 transition-colors duration-500"></div>
+                        </a>
+                    </div>
+                    <!-- Text Side (Desktop Right) -->
+                    <div class="w-full lg:w-1/2 flex items-center order-2 lg:order-2" data-aos="fade-left">
+                        <div class="w-full px-8 py-12 lg:p-16">
+                            <div class="mb-6">
+                                <span class="text-cortex-secondary font-medium text-sm uppercase tracking-wider block mb-3">Lifestyle E-commerce</span>
+                                <div class="flex items-center gap-4">
+                                    <a href="http://concepstore.ph/" target="_blank" rel="noopener noreferrer" class="inline-block">
+                                         <img src="<?php echo get_template_directory_uri(); ?>/images/sitelogo-concepstore.png" alt="ConcepStore Logo" class="h-10 w-auto">
+                                    </a>
+                                    <a href="http://concepstore.ph/" target="_blank" rel="noopener noreferrer" aria-label="Visit ConcepStore Website" class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-slate-100 text-cortex-secondary hover:bg-cortex-secondary hover:text-white transition-all duration-300 shadow-sm hover:shadow-md" title="Visit Website">
+                                        <i class="fas fa-external-link-alt text-sm"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="text-slate-600 mb-10 text-lg md:text-xl leading-relaxed">
+                                Curated products designed to elevate modern lifestyles. A premier destination for reliable home and business appliances from leading brands like Carrier, Condura, Toshiba, and Midea.
+                            </p>
+                            <div class="flex flex-wrap gap-3 mb-10">
+                                <span class="inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium bg-white text-slate-600 border border-slate-200 shadow-sm">E-commerce</span>
+                                <span class="inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium bg-white text-slate-600 border border-slate-200 shadow-sm">Lifestyle</span>
+                                <span class="inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium bg-white text-slate-600 border border-slate-200 shadow-sm">Home Solutions</span>
+                            </div>
+                            <a href="<?php echo esc_url(home_url('/concepstore/')); ?>" class="inline-flex items-center px-6 py-3 rounded-full bg-slate-900 text-white font-semibold hover:bg-cortex-secondary transition-all duration-300">
+                                View Case Study <i class="fas fa-arrow-right ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Brand 3: SharkNinja Philippines (Text Left, Image Right) -->
+            <div id="brand-sharkninja" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+                <div class="flex flex-col lg:flex-row w-full group min-h-[500px] rounded-3xl overflow-hidden shadow-lg border border-slate-100 hover:shadow-2xl transition-all duration-500 bg-slate-50">
+                    <!-- Text Side (Desktop Left) -->
+                    <div class="w-full lg:w-1/2 flex items-center order-2 lg:order-1" data-aos="fade-right">
+                        <div class="w-full px-8 py-12 lg:p-16">
+                            <div class="mb-6">
+                                <span class="text-cortex-primary font-medium text-sm uppercase tracking-wider block mb-3">Premium Appliances</span>
+                                <div class="flex items-center gap-4">
+                                    <a href="https://sharkninja.com.ph/" target="_blank" rel="noopener noreferrer" class="inline-block">
+                                         <img src="<?php echo get_template_directory_uri(); ?>/images/sitelogo-sharkninja.png" alt="SharkNinja Logo" class="h-10 w-auto">
+                                    </a>
+                                    <a href="https://sharkninja.com.ph/" target="_blank" rel="noopener noreferrer" aria-label="Visit SharkNinja Philippines Website" class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-slate-100 text-cortex-primary hover:bg-cortex-primary hover:text-white transition-all duration-300 shadow-sm hover:shadow-md" title="Visit Website">
+                                        <i class="fas fa-external-link-alt text-sm"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="text-slate-600 mb-10 text-lg md:text-xl leading-relaxed">
+                                Premium home appliances delivering cutting-edge performance. Bringing innovative, high-efficiency vacuums and kitchen tools that enhance convenience and elevate the modern home.
+                            </p>
+                            <div class="flex flex-wrap gap-3 mb-10">
+                                <span class="inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium bg-white text-slate-600 border border-slate-200 shadow-sm">Innovation</span>
+                                <span class="inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium bg-white text-slate-600 border border-slate-200 shadow-sm">Home Tech</span>
+                                <span class="inline-flex items-center px-4 py-1.5 rounded-full text-sm font-medium bg-white text-slate-600 border border-slate-200 shadow-sm">Premium Retail</span>
+                            </div>
+                            <a href="<?php echo esc_url(home_url('/sharkninja/')); ?>" class="inline-flex items-center px-6 py-3 rounded-full bg-slate-900 text-white font-semibold hover:bg-cortex-secondary transition-all duration-300">
+                                View Case Study <i class="fas fa-arrow-right ml-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Image Side (Desktop Right) -->
+                    <div class="w-full lg:w-1/2 relative order-1 lg:order-2 overflow-hidden" data-aos="fade-left">
+                        <a href="https://sharkninja.com.ph/" target="_blank" rel="noopener noreferrer" class="block w-full h-full relative" aria-label="View SharkNinja Project Image">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/screen-sharkninja.png" alt="SharkNinja Philippines" class="w-full h-full object-cover lg:object-contain transform group-hover:scale-105 transition-transform duration-1000 p-4 lg:p-8 rounded-3xl">
+                            <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/10 transition-colors duration-500"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center md:hidden">
+            <a href="#contact" class="inline-flex items-center px-6 py-3 border border-slate-200 rounded-full text-slate-600 hover:bg-white hover:text-cortex-primary transition-all shadow-sm">
+                Partner With Us <i class="fas fa-arrow-right ml-2"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- News Section -->
+    <?php
+    $posts_page_id = (int) get_option('page_for_posts');
+    $blog_url = $posts_page_id ? get_permalink($posts_page_id) : home_url('/blog/');
+    $news_query = new WP_Query(
+        array(
+            'post_type'      => 'post',
+            'post_status'    => 'publish',
+            'posts_per_page' => 3,
+        )
+    );
+    $fallback_news_images = array(
+        'https://images.unsplash.com/photo-1556761175-5973dc0f32e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        'https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+        'https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    );
+    ?>
+    <section id="news" class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-16">
+                <div class="text-center md:text-left max-w-3xl mx-auto md:mx-0">
+                    <span class="inline-block py-1 px-3 rounded-full bg-cortex-accent/30 text-cortex-primary text-xs font-bold tracking-widest uppercase mb-2">Latest Updates</span>
+                    <h2 class="font-display text-4xl md:text-5xl font-bold text-slate-900 mt-2 mb-6">News & Milestones</h2>
+                    <p class="text-slate-600 text-lg">Latest stories from our blog and ongoing milestones across the Cortex portfolio.</p>
+                </div>
+                <a href="<?php echo esc_url($blog_url); ?>" class="inline-flex items-center px-6 py-3 border border-slate-300 rounded-full text-slate-700 hover:border-cortex-primary hover:text-cortex-primary transition-all duration-300 self-center md:self-auto">
+                    View All Blogs <i class="fas fa-arrow-right ml-2 text-xs"></i>
+                </a>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <?php if ($news_query->have_posts()) : ?>
+                    <?php $news_index = 0; ?>
+                    <?php while ($news_query->have_posts()) : $news_query->the_post(); ?>
+                        <?php
+                        $thumbnail_url = get_the_post_thumbnail_url(get_the_ID(), 'large');
+                        if (empty($thumbnail_url)) {
+                            $thumbnail_url = $fallback_news_images[$news_index % count($fallback_news_images)];
+                        }
+                        $categories = get_the_category();
+                        $label = !empty($categories) ? $categories[0]->name : 'Blog Update';
+                        ?>
+                        <article class="bg-white rounded-2xl shadow-sm border border-slate-100 overflow-hidden group hover:shadow-2xl hover:-translate-y-2 transition-all duration-300" data-aos="fade-up" data-aos-delay="<?php echo esc_attr(($news_index + 1) * 100); ?>">
+                            <a href="<?php the_permalink(); ?>" class="block h-48 bg-slate-200 relative overflow-hidden" aria-label="Read <?php the_title_attribute(); ?>">
+                                <img src="<?php echo esc_url($thumbnail_url); ?>" alt="<?php the_title_attribute(); ?>" class="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700">
+                                <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full text-xs font-bold text-cortex-primary"><?php echo esc_html($label); ?></div>
+                            </a>
+                            <div class="p-8">
+                                <div class="text-sm text-slate-500 mb-3"><?php echo esc_html(get_the_date('F j, Y')); ?></div>
+                                <h3 class="font-display text-xl font-bold text-slate-900 mb-3 group-hover:text-cortex-primary transition-colors">
+                                    <a href="<?php the_permalink(); ?>" class="hover:text-cortex-primary transition-colors"><?php the_title(); ?></a>
+                                </h3>
+                                <p class="text-slate-600 mb-4"><?php echo esc_html(wp_trim_words(get_the_excerpt(), 20)); ?></p>
+                                <a href="<?php the_permalink(); ?>" class="inline-flex items-center text-cortex-primary font-semibold hover:text-cortex-secondary transition-colors">Read More <i class="fas fa-arrow-right ml-2 text-xs"></i></a>
+                            </div>
+                        </article>
+                        <?php $news_index++; ?>
+                    <?php endwhile; ?>
+                    <?php wp_reset_postdata(); ?>
+                <?php else : ?>
+                    <div class="md:col-span-3 bg-white rounded-2xl shadow-sm border border-slate-100 p-8 text-center text-slate-600" data-aos="fade-up">
+                        No blog posts yet. Publish your first three posts and they will appear here automatically.
+                    </div>
+                <?php endif; ?>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-24 bg-slate-900 text-white relative overflow-hidden bg-grid-pattern">
+        <!-- Background Accents -->
+        <div class="absolute top-0 right-0 w-96 h-96 bg-cortex-secondary opacity-20 rounded-full filter blur-[100px] -translate-y-1/2 translate-x-1/2 animate-blob"></div>
+        <div class="absolute bottom-0 left-0 w-96 h-96 bg-cortex-primary opacity-20 rounded-full filter blur-[100px] translate-y-1/2 -translate-x-1/2 animate-blob animation-delay-2000"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="max-w-4xl mx-auto text-center mb-16" data-aos="fade-up">
+                <span class="inline-block py-1 px-3 rounded-full bg-slate-800/50 border border-slate-700 text-cortex-accent text-xs font-bold tracking-widest uppercase mb-4 backdrop-blur-sm">Get in Touch</span>
+                <h2 class="font-display text-4xl md:text-5xl font-bold mb-6">Connect with Cortex</h2>
+                <p class="text-slate-400 text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
+                    Got questions about our brands, products, or services? Drop us a line and let’s start the conversation.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Card 1: Visit Us -->
+                <div class="group relative bg-slate-800/30 backdrop-blur-sm border border-slate-700/50 p-8 rounded-3xl hover:bg-slate-800/50 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-cortex-primary/10" data-aos="fade-up" data-aos-delay="100">
+                    <div class="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-3xl"></div>
+                    <div class="relative z-10 flex flex-col items-center text-center">
+                        <div class="w-16 h-16 rounded-2xl bg-slate-900/50 border border-slate-700 flex items-center justify-center text-cortex-primary mb-6 group-hover:scale-110 group-hover:border-cortex-primary/30 transition-all duration-300 shadow-lg">
+                            <i class="fas fa-map-marker-alt text-2xl"></i>
+                        </div>
+                        <h4 class="text-white font-bold text-xl mb-3">Visit Us</h4>
+                        <p class="text-slate-400 leading-relaxed">
+                            Km 20 East Service Road South Superhighway, <br> Alabang, Muntinlupa City, 1771, Philippines
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 2: Email Us -->
+                <div class="group relative bg-slate-800/30 backdrop-blur-sm border border-slate-700/50 p-8 rounded-3xl hover:bg-slate-800/50 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-cortex-primary/10" data-aos="fade-up" data-aos-delay="200">
+                    <div class="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-3xl"></div>
+                    <div class="relative z-10 flex flex-col items-center text-center">
+                        <div class="w-16 h-16 rounded-2xl bg-slate-900/50 border border-slate-700 flex items-center justify-center text-cortex-primary mb-6 group-hover:scale-110 group-hover:border-cortex-primary/30 transition-all duration-300 shadow-lg">
+                            <i class="fas fa-envelope text-2xl"></i>
+                        </div>
+                        <h4 class="text-white font-bold text-xl mb-3">Email Us</h4>
+                        <a href="mailto:hello@cortex.ph" class="text-slate-400 hover:text-white transition-colors text-lg">hello@cortex.ph</a>
+                        <p class="text-slate-500 text-sm mt-2">We reply within 24 hours</p>
+                    </div>
+                </div>
+
+                <!-- Card 3: Call Us 
+                <div class="group relative bg-slate-800/30 backdrop-blur-sm border border-slate-700/50 p-8 rounded-3xl hover:bg-slate-800/50 transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-cortex-primary/10" data-aos="fade-up" data-aos-delay="300">
+                    <div class="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-3xl"></div>
+                    <div class="relative z-10 flex flex-col items-center text-center">
+                        <div class="w-16 h-16 rounded-2xl bg-slate-900/50 border border-slate-700 flex items-center justify-center text-cortex-primary mb-6 group-hover:scale-110 group-hover:border-cortex-primary/30 transition-all duration-300 shadow-lg">
+                            <i class="fas fa-phone text-2xl"></i>
+                        </div>
+                        <h4 class="text-white font-bold text-xl mb-3">Call Us</h4>
+                        <a href="tel:+63288501367" class="text-slate-400 hover:text-white transition-colors text-lg">(+63) 2 8 8501367</a>
+                        <p class="text-slate-500 text-sm mt-2">Mon-Fri, 9am - 6pm</p>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </section>
+
+<?php
+get_footer();
+?>
