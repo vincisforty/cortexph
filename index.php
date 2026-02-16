@@ -12,24 +12,24 @@
     <meta name="robots" content="index, follow">
 
     <!-- Favicon -->
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="<?php echo get_template_directory_uri(); ?>/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="<?php echo get_template_directory_uri(); ?>/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="<?php echo get_template_directory_uri(); ?>/favicon/favicon-16x16.png">
+    <link rel="manifest" href="<?php echo get_template_directory_uri(); ?>/favicon/site.webmanifest">
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://cortex.ph/">
     <meta property="og:title" content="Cortex Technologies Corp | Innovation & Technology">
     <meta property="og:description" content="Cortex Technologies Corp - Innovations, Marketing, and Technology Solutions. Experts in WordPress and Shopify development.">
-    <meta property="og:image" content="images/coline-beulin-oLWGI-Q76Yc-unsplash.jpg">
+    <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/images/coline-beulin-oLWGI-Q76Yc-unsplash.jpg">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://cortex.ph/">
     <meta property="twitter:title" content="Cortex Technologies Corp | Innovation & Technology">
     <meta property="twitter:description" content="Cortex Technologies Corp - Innovations, Marketing, and Technology Solutions. Experts in WordPress and Shopify development.">
-    <meta property="twitter:image" content="images/coline-beulin-oLWGI-Q76Yc-unsplash.jpg"> 
+    <meta property="twitter:image" content="<?php echo get_template_directory_uri(); ?>/images/coline-beulin-oLWGI-Q76Yc-unsplash.jpg"> 
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -55,13 +55,13 @@
                         display: ['"Plus Jakarta Sans"', 'sans-serif'],
                     },
                     backgroundImage: {
-                        'hero-pattern': "url('images/coline-beulin-oLWGI-Q76Yc-unsplash.jpg')",
+                        'hero-pattern': "url('<?php echo get_template_directory_uri(); ?>/images/coline-beulin-oLWGI-Q76Yc-unsplash.jpg')",
                     }
                 }
             }
         }
     </script>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
 </head>
 <body class="font-sans text-slate-800 bg-slate-50 antialiased selection:bg-cortex-primary selection:text-white overflow-x-hidden">
 
@@ -72,7 +72,7 @@
                 <!-- Logo -->
                 <div class="flex-shrink-0">
                     <a href="#" class="flex items-center">
-                        <img src="images/logo_cortex.svg" alt="Cortex Logo" class="h-12 w-auto">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/logo_cortex.svg" alt="Cortex Logo" class="h-12 w-auto">
                     </a>
                 </div>
                 
@@ -106,9 +106,9 @@
     <section id="home" class="relative min-h-screen flex items-center pt-20 lg:pb-40 overflow-hidden bg-hero-pattern bg-cover bg-center bg-no-repeat">
 
         <!-- Video Background -->
-        <video autoplay loop muted playsinline poster="images/coline-beulin-oLWGI-Q76Yc-unsplash.jpg" class="absolute inset-0 w-full h-full object-cover z-0">
-            <source src="videos/cortex%20hero%20video%20mobile.webm" type="video/webm" media="(max-width: 767px)">
-            <source src="videos/cortex%20hero%20video%20desktop.webm" type="video/webm">
+        <video autoplay loop muted playsinline poster="<?php echo get_template_directory_uri(); ?>/images/coline-beulin-oLWGI-Q76Yc-unsplash.jpg" class="absolute inset-0 w-full h-full object-cover z-0">
+            <source src="<?php echo get_template_directory_uri(); ?>/videos/cortex%20hero%20video%20mobile.webm" type="video/webm" media="(max-width: 767px)">
+            <source src="<?php echo get_template_directory_uri(); ?>/videos/cortex%20hero%20video%20desktop.webm" type="video/webm">
         </video>
 
         <!-- Background Image with Overlay -->
@@ -398,7 +398,7 @@
 
                 <!-- Small Card 2 (Top Right) - Image -->
                 <div class="lg:col-span-1 lg:row-span-1 relative group overflow-hidden rounded-3xl bg-slate-900 shadow-lg border border-slate-300 hover:shadow-2xl transition-all duration-500" data-aos="fade-up" data-aos-delay="200">
-                     <img src="images/grid-mangkosme-1.webp" alt="Team" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-30 group-hover:opacity-40">
+                     <img src="<?php echo get_template_directory_uri(); ?>/images/grid-mangkosme-1.webp" alt="Team" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-30 group-hover:opacity-40">
                      <div class="absolute inset-0 p-6 flex flex-col justify-end">
                         <span class="text-cortex-accent text-xs font-bold uppercase mb-2"></span>
                         <h3 class="text-xl font-bold text-white leading-tight">Expanded Brand Portfolio & Categories</h3>
@@ -412,7 +412,7 @@
                 <!-- Large Card (Left) -->
                 <div class="lg:col-span-2 lg:row-span-2 relative group overflow-hidden rounded-3xl bg-slate-900 shadow-lg border border-slate-300 cursor-pointer hover:shadow-2xl hover:shadow-cortex-primary/20 transition-all duration-500" data-aos="fade-up">
                     <a href="#brand-mangkosme" class="absolute inset-0 z-10" aria-label="Go to product"></a>
-                    <img src="images/grid-mangkosme-2.webp" alt="SharkNinja" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-80">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/grid-mangkosme-2.webp" alt="SharkNinja" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-80">
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/40 to-transparent"></div>
                     <div class="absolute bottom-0 left-0 p-8">
                         <span class="text-xs font-bold tracking-wider uppercase text-cortex-accent mb-2 block">MangKosme.com</span>
@@ -423,7 +423,7 @@
 
                 <!-- Wide Card (Bottom Right - spanning 2 cols) -->
                 <div class="lg:col-span-2 lg:row-span-1 relative group overflow-hidden rounded-3xl bg-slate-900 shadow-lg border border-white/10 hover:shadow-2xl transition-all duration-500" data-aos="fade-up" data-aos-delay="300">
-                    <img src="images/grid-mangkosme-4.webp" alt="Office" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-50 group-hover:opacity-40">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/grid-mangkosme-4.webp" alt="Office" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-50 group-hover:opacity-40">
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 to-transparent"></div>
                      <div class="absolute inset-0 p-8 flex flex-col justify-end max-w-lg">
                         <span class="text-cortex-accent text-xs font-bold uppercase mb-2">Customer Engagement</span>
@@ -477,7 +477,7 @@
 
                 <!-- Wide Card (Bottom Right - spanning 2 cols) -->
                 <div class="lg:col-span-2 lg:row-span-1 relative group overflow-hidden rounded-3xl bg-slate-900 shadow-lg border border-white/10 hover:shadow-2xl transition-all duration-500" data-aos="fade-up" data-aos-delay="300">
-                    <img src="images/grid-concepstore-1.webp" alt="Office" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-50 group-hover:opacity-40">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/grid-concepstore-1.webp" alt="Office" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105 opacity-50 group-hover:opacity-40">
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 to-transparent"></div>
                      <div class="absolute inset-0 p-8 flex flex-col justify-end max-w-lg">
                         <span class="text-cortex-accent text-xs font-bold uppercase mb-2">Customer Engagement</span>
@@ -521,7 +521,7 @@
                                 <span class="text-cortex-primary font-medium text-sm uppercase tracking-wider block mb-3">Business Solutions</span>
                                 <div class="flex items-center gap-4">
                                     <a href="https://mangkosme.com/" target="_blank" rel="noopener noreferrer" class="inline-block">
-                                        <img src="images/sitelogo-mangkosme.png" alt="Mang Kosme Logo" class="h-10 w-auto border-radius-round">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/sitelogo-mangkosme.png" alt="Mang Kosme Logo" class="h-10 w-auto border-radius-round">
                                     </a>
                                     <a href="https://mangkosme.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit Mang Kosme Website" class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-slate-100 text-cortex-primary hover:bg-cortex-primary hover:text-white transition-all duration-300 shadow-sm hover:shadow-md" title="Visit Website">
                                         <i class="fas fa-external-link-alt text-sm"></i>
@@ -541,7 +541,7 @@
                     <!-- Image Side (Desktop Right) -->
                     <div class="w-full lg:w-1/2 relative order-1 lg:order-2 overflow-hidden" data-aos="fade-left">
                         <a href="https://mangkosme.com/" target="_blank" rel="noopener noreferrer" class="block w-full h-full relative" aria-label="View Mang Kosme Project Image">
-                            <img src="images/screen-mangkosme.png" alt="Mang Kosme" class="w-full h-full object-cover lg:object-contain transform group-hover:scale-105 transition-transform duration-1000 p-4 lg:p-8 rounded-3xl">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/screen-mangkosme.png" alt="Mang Kosme" class="w-full h-full object-cover lg:object-contain transform group-hover:scale-105 transition-transform duration-1000 p-4 lg:p-8 rounded-3xl">
                             <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/10 transition-colors duration-500"></div>
                         </a>
                     </div>
@@ -554,7 +554,7 @@
                     <!-- Image Side (Desktop Left) -->
                     <div class="w-full lg:w-1/2 relative order-1 lg:order-1 overflow-hidden" data-aos="fade-right">
                         <a href="http://concepstore.ph/" target="_blank" rel="noopener noreferrer" class="block w-full h-full relative" aria-label="View ConcepStore Project Image">
-                            <img src="images/screen-concepstore.png" alt="ConcepStore" class="w-full h-full object-cover lg:object-contain transform group-hover:scale-105 transition-transform duration-1000 p-4 lg:p-8 rounded-3xl">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/screen-concepstore.png" alt="ConcepStore" class="w-full h-full object-cover lg:object-contain transform group-hover:scale-105 transition-transform duration-1000 p-4 lg:p-8 rounded-3xl">
                             <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/10 transition-colors duration-500"></div>
                         </a>
                     </div>
@@ -565,7 +565,7 @@
                                 <span class="text-cortex-secondary font-medium text-sm uppercase tracking-wider block mb-3">Lifestyle E-commerce</span>
                                 <div class="flex items-center gap-4">
                                     <a href="http://concepstore.ph/" target="_blank" rel="noopener noreferrer" class="inline-block">
-                                         <img src="images/sitelogo-concepstore.png" alt="ConcepStore Logo" class="h-10 w-auto">
+                                         <img src="<?php echo get_template_directory_uri(); ?>/images/sitelogo-concepstore.png" alt="ConcepStore Logo" class="h-10 w-auto">
                                     </a>
                                     <a href="http://concepstore.ph/" target="_blank" rel="noopener noreferrer" aria-label="Visit ConcepStore Website" class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-slate-100 text-cortex-secondary hover:bg-cortex-secondary hover:text-white transition-all duration-300 shadow-sm hover:shadow-md" title="Visit Website">
                                         <i class="fas fa-external-link-alt text-sm"></i>
@@ -595,7 +595,7 @@
                                 <span class="text-cortex-primary font-medium text-sm uppercase tracking-wider block mb-3">Premium Appliances</span>
                                 <div class="flex items-center gap-4">
                                     <a href="https://sharkninja.com.ph/" target="_blank" rel="noopener noreferrer" class="inline-block">
-                                         <img src="images/sitelogo-sharkninja.png" alt="SharkNinja Logo" class="h-10 w-auto">
+                                         <img src="<?php echo get_template_directory_uri(); ?>/images/sitelogo-sharkninja.png" alt="SharkNinja Logo" class="h-10 w-auto">
                                     </a>
                                     <a href="https://sharkninja.com.ph/" target="_blank" rel="noopener noreferrer" aria-label="Visit SharkNinja Philippines Website" class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-slate-100 text-cortex-primary hover:bg-cortex-primary hover:text-white transition-all duration-300 shadow-sm hover:shadow-md" title="Visit Website">
                                         <i class="fas fa-external-link-alt text-sm"></i>
@@ -615,7 +615,7 @@
                     <!-- Image Side (Desktop Right) -->
                     <div class="w-full lg:w-1/2 relative order-1 lg:order-2 overflow-hidden" data-aos="fade-left">
                         <a href="https://sharkninja.com.ph/" target="_blank" rel="noopener noreferrer" class="block w-full h-full relative" aria-label="View SharkNinja Project Image">
-                            <img src="images/screen-sharkninja.png" alt="SharkNinja Philippines" class="w-full h-full object-cover lg:object-contain transform group-hover:scale-105 transition-transform duration-1000 p-4 lg:p-8 rounded-3xl">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/screen-sharkninja.png" alt="SharkNinja Philippines" class="w-full h-full object-cover lg:object-contain transform group-hover:scale-105 transition-transform duration-1000 p-4 lg:p-8 rounded-3xl">
                             <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/10 transition-colors duration-500"></div>
                         </a>
                     </div>
@@ -750,7 +750,7 @@
             <div class="flex flex-col md:flex-row justify-between items-center md:items-start gap-12 mb-12">
                 <div class="max-w-md text-center md:text-left">
                     <a href="#" class="mb-6 inline-block md:block">
-                        <img src="images/logo_cortex.svg" alt="Cortex Logo" class="h-12 w-auto">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/logo_cortex.svg" alt="Cortex Logo" class="h-12 w-auto">
                     </a>
                     <p class="text-slate-500">
                         Building the future of online retail—one brand, one platform, one experience at a time.
@@ -789,7 +789,7 @@
                             <div class="px-4 py-6 sm:px-6 border-b border-slate-100">
                                 <div class="flex items-center justify-end">
                                     <!-- <a href="#" class="flex items-center">
-                                        <img src="images/logo_cortex.svg" alt="Cortex Logo" class="h-10 w-auto">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/images/logo_cortex.svg" alt="Cortex Logo" class="h-10 w-auto">
                                     </a> -->
                                     <button type="button" class="rounded-md text-slate-400 hover:text-slate-500 focus:outline-none" id="closeMobileMenuBtn">
                                         <span class="sr-only">Close panel</span>
@@ -821,6 +821,6 @@
         </div>
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="js/main.js"></script>
+    <script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
 </body>
 </html>
