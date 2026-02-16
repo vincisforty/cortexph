@@ -59,3 +59,42 @@ Text Domain: cortex-ph
 }
 .to-cortex-accent { --tw-gradient-to: var(--cortex-accent) var(--tw-gradient-to-position); }
 .to-cortex-secondary { --tw-gradient-to: var(--cortex-secondary) var(--tw-gradient-to-position); }
+
+/* Blog post content readability */
+.cortex-post-content p,
+.cortex-post-content ul,
+.cortex-post-content ol,
+.cortex-post-content blockquote {
+    margin: 0 0 1.25rem;
+}
+
+.cortex-post-content h2,
+.cortex-post-content h3,
+.cortex-post-content h4 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    margin: 1.8rem 0 0.9rem;
+    color: #fff;
+}
+
+.cortex-post-content a {
+    color: var(--cortex-accent);
+    text-decoration: underline;
+    text-underline-offset: 0.15rem;
+}
+
+.cortex-post-content ul,
+.cortex-post-content ol {
+    padding-left: 1.35rem;
+}
+
+.cortex-post-content li {
+    margin-bottom: 0.45rem;
+}
+
+.cortex-post-content img {
+    border-radius: 0.9rem;
+    margin: 1.4rem 0;
+    max-width: 100%;
+    height: auto;
+}
