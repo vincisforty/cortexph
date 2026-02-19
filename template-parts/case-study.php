@@ -42,7 +42,7 @@ $home_url         = home_url('/');
 
         <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 w-full">
             <div class="grid lg:grid-cols-12 gap-12 items-center">
-                <div class="lg:col-span-7" data-aos="fade-right" data-motion-group>
+                <div class="order-2 lg:order-1 lg:col-span-7" data-aos="fade-right" data-motion-group>
                     <span class="inline-flex items-center gap-2 py-1.5 px-4 rounded-full bg-cortex-accent/20 border border-cortex-accent/40 text-cortex-accent text-xs font-bold tracking-widest uppercase mb-7" data-motion-item>
                         <?php echo esc_html($kicker); ?>
                     </span>
@@ -68,10 +68,10 @@ $home_url         = home_url('/');
                     </div>
                 </div>
 
-                <div class="lg:col-span-5" data-aos="fade-left" data-motion-group>
+                <div class="order-1 lg:order-2 lg:col-span-5" data-aos="fade-left" data-motion-group>
                     <div class="case-hero-panel" data-case-parallax>
                         <?php if (!empty($hero_image)) : ?>
-                            <img src="<?php echo esc_url($hero_image); ?>" alt="<?php echo esc_attr($brand); ?> visual" class="w-full h-[500px] object-cover object-center">
+                            <img src="<?php echo esc_url($hero_image); ?>" alt="<?php echo esc_attr($brand); ?> visual" class="block w-full h-auto">
                         <?php endif; ?>
                         <?php if (!empty($logo_image)) : ?>
                             <div class="absolute top-6 left-6 bg-white/95 rounded-xl px-4 py-3 shadow-lg">
@@ -94,7 +94,7 @@ $home_url         = home_url('/');
                 <?php foreach ($stats as $index => $stat) : ?>
                     <article class="case-results-card rounded-2xl p-8" data-aos="fade-up" data-aos-delay="<?php echo esc_attr($index * 90); ?>" data-motion-item>
                         <h3 class="text-white font-semibold text-2xl mb-4"><?php echo esc_html($stat['label'] ?? ''); ?></h3>
-                        <p class="font-display text-5xl md:text-6xl font-bold text-cortex-primary mb-3 leading-none">
+                        <p class="font-display text-3xl md:text-4xl font-bold text-cortex-primary mb-3 leading-none">
                             <?php if (!empty($stat['target'])) : ?>
                                 <span
                                     class="case-counter"
