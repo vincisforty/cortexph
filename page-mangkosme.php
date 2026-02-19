@@ -12,10 +12,10 @@ if (!defined('ABSPATH')) {
 get_header();
 
 $case_data = array(
-    'brand'      => 'Mangkosme',
-    'kicker'     => 'Portfolio: Mangkosme',
-    'headline'   => 'Mangkosme',
-    'summary'    => 'Mangkosme is a dynamic home and business appliance destination redefining value and accessibility in the Philippine market, combining best-in-class warehouse sale experiences with a robust online outlet presence.',
+    'brand'      => 'Mang Kosme',
+    'kicker'     => 'Portfolio: Mang Kosme',
+    'headline'   => 'Mang Kosme',
+    'summary'    => 'Mang Kosme is a dynamic home and business appliance destination redefining value and accessibility in the Philippine market, combining best-in-class warehouse sale experiences with a robust online outlet presence.',
     'lead'       => 'Operated and scaled through a digitally driven online-to-offline growth system connecting performance marketing, social community building, and high-impact warehouse sales.',
     'hero_image' => get_template_directory_uri() . '/images/grid-mangkosme-2.webp',
     'context_image' => get_template_directory_uri() . '/images/grid-mangkosme-1.webp',
@@ -45,7 +45,7 @@ $case_data = array(
         ),
     ),
     'context'    => array(
-        'Mangkosme is a dynamic home and business appliance destination redefining value and accessibility in the Philippine market, combining best-in-class warehouse sale experiences with a robust online outlet presence.',
+        'Mang Kosme is a dynamic home and business appliance destination redefining value and accessibility in the Philippine market, combining best-in-class warehouse sale experiences with a robust online outlet presence.',
         'A broad portfolio spanning trusted global appliance brands across multiple categories drives high warehouse conversion while serving both everyday consumers and business buyers.',
     ),
     'growth_engine' => array(
@@ -87,28 +87,28 @@ $case_data = array(
             'description' => 'Business-ready appliance bundles supported entrepreneurial buying behavior.',
         ),
     ),
-    'framework_intro' => 'Mangkosme\'s online-to-offline system combines performance media, social community momentum, and warehouse conversion mechanics to sustain scalable growth and negosyo-focused demand.',
+    'framework_intro' => 'Mang Kosme\'s online-to-offline system combines performance media, social community momentum, and warehouse conversion mechanics to sustain scalable growth and negosyo-focused demand.',
     'gallery' => array(
         array(
             'src'   => get_template_directory_uri() . '/images/grid-mangkosme-2.webp',
-            'alt'   => 'Mangkosme main campaign visual',
+            'alt'   => 'Mang Kosme main campaign visual',
             'large' => true,
         ),
         array(
             'src' => get_template_directory_uri() . '/images/grid-mangkosme-1.webp',
-            'alt' => 'Mangkosme warehouse campaign visual',
+            'alt' => 'Mang Kosme warehouse campaign visual',
         ),
         array(
             'src' => get_template_directory_uri() . '/images/screen-mangkosme.png',
-            'alt' => 'Mangkosme website interface',
+            'alt' => 'Mang Kosme website interface',
         ),
         array(
             'src' => get_template_directory_uri() . '/images/grid-mangkosme-3.webp',
-            'alt' => 'Mangkosme brand engagement visual',
+            'alt' => 'Mang Kosme brand engagement visual',
         ),
         array(
             'src' => get_template_directory_uri() . '/images/grid-mangkosme-4.webp',
-            'alt' => 'Mangkosme warehouse event visual',
+            'alt' => 'Mang Kosme warehouse event visual',
         ),
     ),
     'related' => array(
