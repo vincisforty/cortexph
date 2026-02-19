@@ -34,7 +34,7 @@ $framework_intro  = $case_data['framework_intro'] ?? 'Each case was designed as 
 $home_url         = home_url('/');
 ?>
 <main class="case-study-page text-slate-900">
-    <section class="relative min-h-[90vh] flex items-center overflow-hidden case-grid-pattern pt-24">
+    <section class="relative min-h-[90vh] flex items-center overflow-hidden case-grid-pattern">
         <div class="case-orb case-orb-one"></div>
         <div class="case-orb case-orb-two"></div>
         <div class="case-orb case-orb-three"></div>
@@ -42,11 +42,11 @@ $home_url         = home_url('/');
 
         <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 w-full">
             <div class="grid lg:grid-cols-12 gap-12 items-center">
-                <div class="order-2 lg:order-1 lg:col-span-7" data-aos="fade-right" data-motion-group>
+                <div class="order-2 lg:order-1 lg:col-span-6 relative z-20" data-aos="fade-right" data-motion-group>
                     <span class="inline-flex items-center gap-2 py-1.5 px-4 rounded-full bg-cortex-accent/20 border border-cortex-accent/40 text-cortex-accent text-xs font-bold tracking-widest uppercase mb-7" data-motion-item>
                         <?php echo esc_html($kicker); ?>
                     </span>
-                    <h1 class="font-display text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-7 max-w-4xl text-white" data-motion-item>
+                    <h1 class="font-display text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-7 max-w-4xl text-white" data-motion-item>
                         <?php echo esc_html($headline); ?>
                     </h1>
                     <p class="text-lg md:text-xl text-slate-200 leading-relaxed max-w-3xl mb-6 case-copy-readable" data-motion-item>
@@ -68,10 +68,10 @@ $home_url         = home_url('/');
                     </div>
                 </div>
 
-                <div class="order-1 lg:order-2 lg:col-span-5" data-aos="fade-left" data-motion-group>
+                <div class="order-1 lg:order-2 lg:col-span-5 case-hero-column relative z-10" data-aos="fade-left" data-motion-group>
                     <div class="case-hero-panel" data-case-parallax>
                         <?php if (!empty($hero_image)) : ?>
-                            <img src="<?php echo esc_url($hero_image); ?>" alt="<?php echo esc_attr($brand); ?> visual" class="block w-full h-auto">
+                            <img src="<?php echo esc_url($hero_image); ?>" alt="<?php echo esc_attr($brand); ?> visual" class="case-hero-image block w-full h-auto">
                         <?php endif; ?>
                         <?php if (!empty($logo_image)) : ?>
                             <!-- <div class="absolute top-6 left-6 bg-white/95 rounded-xl px-4 py-3 shadow-lg">

@@ -13,7 +13,7 @@ get_header();
 
 $case_data = array(
     'brand'      => 'Mangkosme',
-    'kicker'     => 'Portfolio Page: Mangkosme',
+    'kicker'     => 'Portfolio: Mangkosme',
     'headline'   => 'Mangkosme',
     'summary'    => 'Mangkosme is a dynamic home and business appliance destination redefining value and accessibility in the Philippine market, combining best-in-class warehouse sale experiences with a robust online outlet presence.',
     'lead'       => 'Operated and scaled through a digitally driven online-to-offline growth system connecting performance marketing, social community building, and high-impact warehouse sales.',
