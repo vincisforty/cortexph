@@ -14,7 +14,7 @@ get_header();
 $case_data = array(
     'brand'      => 'ConcepStore',
     'kicker'     => 'Portfolio: ConcepStore',
-    'headline'   => 'ConcepStore - Elevating Everyday Living Through Curated Home Solutions',
+    'headline'   => 'Elevating Everyday Living Through Curated Home Solutions',
     'summary'    => 'ConcepStore is a premier e-commerce destination redefining how Filipino households discover, select, and purchase home appliances and lifestyle solutions.',
     'lead'       => 'As a proudly curated online store under Concepcion Industrial Corporation, ConcepStore brings together quality products from trusted brands - thoughtfully chosen to solve real-life problems, enhance daily routines, and make modern living more convenient and purposeful.',
     'hero_image' => get_template_directory_uri() . '/images/herobanner-concepstore.webp',

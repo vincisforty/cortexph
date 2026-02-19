@@ -191,8 +191,8 @@ $home_url         = home_url('/');
     <section class="py-24 bg-slate-50 border-t border-slate-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid lg:grid-cols-12 gap-10 items-start" data-motion-group>
-                <div class="lg:col-span-5" data-motion-item>
-                    <span class="text-cortex-accent text-xs uppercase tracking-[0.2em] font-bold">Creative Marketing Framework</span>
+                <div class="lg:col-span-5" data-motion-item>    
+                    <span class="text-cortex-secondary text-xs uppercase tracking-[0.2em] font-bold">Creative Marketing Framework</span>
                     <h2 class="font-display text-4xl font-bold mt-4 mb-5">How We Turned Strategy Into Conversion</h2>
                     <p class="text-slate-700 text-lg leading-relaxed case-copy-readable mb-7"><?php echo esc_html($framework_intro); ?></p>
                     <?php if (!empty($site_url)) : ?>
@@ -254,7 +254,7 @@ $home_url         = home_url('/');
                                 <img src="<?php echo esc_url($item['image']); ?>" alt="<?php echo esc_attr($item['title'] ?? 'Related case'); ?>" class="case-related-image">
                             </div>
                         <?php endif; ?>
-                        <p class="text-cortex-accent text-xs uppercase tracking-[0.18em] font-semibold mb-2">Portfolio</p>
+                        <p class="text-cortex-secondary text-xs uppercase tracking-[0.18em] font-semibold mb-2">Portfolio</p>
                         <h3 class="text-slate-900 font-display text-2xl mb-2"><?php echo esc_html($item['title'] ?? ''); ?></h3>
                         <p class="text-slate-600 text-sm"><?php echo esc_html($item['blurb'] ?? ''); ?></p>
                     </a>
