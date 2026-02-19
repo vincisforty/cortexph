@@ -89,7 +89,7 @@ $blog_url = $posts_page_id ? get_permalink($posts_page_id) : home_url('/blog/');
         </div>
     </div>
 </div>
-
+...
 <?php wp_footer(); ?>
 </body>
 </html>

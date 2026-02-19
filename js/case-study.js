@@ -4,6 +4,11 @@ document.addEventListener('DOMContentLoaded', function () {
         return;
     }
 
+    casePage.querySelectorAll('[data-aos]').forEach(function (el) {
+        el.removeAttribute('data-aos');
+        el.removeAttribute('data-aos-delay');
+    });
+
     const counters = Array.from(casePage.querySelectorAll('.case-counter[data-target]'));
 
     function formatValue(value, prefix, suffix) {
@@ -89,6 +94,37 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 
+    function enableSmoothParallax() {
+        const parallaxEl = casePage.querySelector('[data-case-parallax]');
+        if (!parallaxEl) {
+            return;
+        }
+
+        let currentY = 0;
+        let targetY = 0;
+        let rafId = 0;
+
+        function render() {
+            currentY += (targetY - currentY) * 0.12;
+            parallaxEl.style.transform = `translateY(${currentY.toFixed(2)}px)`;
+            rafId = window.requestAnimationFrame(render);
+        }
+
+        function onScroll() {
+            targetY = Math.min(window.scrollY * 0.04, 42);
+        }
+
+        onScroll();
+        window.addEventListener('scroll', onScroll, { passive: true });
+        rafId = window.requestAnimationFrame(render);
+
+        window.addEventListener('beforeunload', function () {
+            if (rafId) {
+                window.cancelAnimationFrame(rafId);
+            }
+        });
+    }
+
     async function initMotionDevAnimations() {
         try {
             const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -123,10 +159,10 @@ document.addEventListener('DOMContentLoaded', function () {
                         animate(
                             items,
                             { opacity: [0, 1], y: [22, 0] },
-                            { duration: 0.7, delay: stagger(0.08), easing: [0.22, 1, 0.36, 1] }
+                            { duration: 0.56, delay: stagger(0.06), easing: [0.22, 1, 0.36, 1] }
                         );
                     },
-                    { amount: 0.2 }
+                    { amount: 0.32 }
                 );
             });
 
@@ -142,7 +178,7 @@ document.addEventListener('DOMContentLoaded', function () {
                         animateCounter(counter);
                         animate(counter, { scale: [0.92, 1], opacity: [0.7, 1] }, { duration: 0.45, easing: [0.22, 1, 0.36, 1] });
                     },
-                    { amount: 0.55 }
+                    { amount: 0.32 }
                 );
             });
 
@@ -151,9 +187,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 animate(
                     parallaxEl,
                     { rotateX: [0.8, 0], y: [16, 0] },
-                    { duration: 1.1, easing: [0.22, 1, 0.36, 1] }
+                    { duration: 0.8, easing: [0.22, 1, 0.36, 1] }
                 );
             }
+
+            enableSmoothParallax();
         } catch (error) {
             // Keep page fully functional if CDN is blocked or unavailable.
             runCounterObserverFallback();
