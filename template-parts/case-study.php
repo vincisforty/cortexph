@@ -137,7 +137,9 @@ $home_url         = home_url('/');
             </div>
         </div>
     </section>
-
+    
+    <!-- Growth System section hidden from frontend -->
+    <!--
     <section class="py-24 bg-slate-50 border-t border-slate-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="grid lg:grid-cols-12 gap-10 items-center" data-motion-group>
@@ -160,6 +162,7 @@ $home_url         = home_url('/');
             </div>
         </div>
     </section>
+    -->
 
     <?php if (!empty($pillars)) : ?>
     <section class="py-24 bg-white text-slate-900 border-t border-slate-100">
