@@ -49,7 +49,7 @@ $blog_url = $posts_page_id ? get_permalink($posts_page_id) : home_url('/blog/');
                             <a href="<?php echo esc_url($home_url . '#portfolio-overview'); ?>" class="block px-3 py-2 rounded-lg text-slate-200 hover:bg-white/10 hover:text-cortex-accent text-sm transition-colors">Portfolio Overview</a>
                             <a href="<?php echo esc_url(home_url('/sharkninja/')); ?>" class="block px-3 py-2 rounded-lg text-slate-200 hover:bg-white/10 hover:text-cortex-accent text-sm transition-colors">SharkNinja</a>
                             <a href="<?php echo esc_url(home_url('/concepstore/')); ?>" class="block px-3 py-2 rounded-lg text-slate-200 hover:bg-white/10 hover:text-cortex-accent text-sm transition-colors">ConcepStore</a>
-                            <a href="<?php echo esc_url(home_url('/mangkosme/')); ?>" class="block px-3 py-2 rounded-lg text-slate-200 hover:bg-white/10 hover:text-cortex-accent text-sm transition-colors">Mangkosme</a>
+                            <a href="<?php echo esc_url(home_url('/mangkosme/')); ?>" class="block px-3 py-2 rounded-lg text-slate-200 hover:bg-white/10 hover:text-cortex-accent text-sm transition-colors">Mang Kosme</a>
                         </div>
                     </div>
                 </div>

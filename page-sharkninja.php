@@ -117,7 +117,7 @@ $case_data = array(
             'image' => get_template_directory_uri() . '/images/grid-concepstore-1.webp',
         ),
         array(
-            'title' => 'Mangkosme',
+            'title' => 'Mang Kosme',
             'url'   => home_url('/mangkosme/'),
             'blurb' => 'Warehouse-led momentum combined with social community power.',
             'image' => get_template_directory_uri() . '/images/grid-mangkosme-2.webp',

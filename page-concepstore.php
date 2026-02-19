@@ -112,7 +112,7 @@ $case_data = array(
             'image' => 'https://sharkninja.com.ph/cdn/shop/articles/03_Shark_Ninja_Article_01.png?v=1759725056&width=1200',
         ),
         array(
-            'title' => 'Mangkosme',
+            'title' => 'Mang Kosme',
             'url'   => home_url('/mangkosme/'),
             'blurb' => 'High-velocity warehouse and social commerce performance model.',
             'image' => get_template_directory_uri() . '/images/grid-mangkosme-2.webp',

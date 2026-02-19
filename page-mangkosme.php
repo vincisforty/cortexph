@@ -1,6 +1,6 @@
 <?php
 /**
- * Mangkosme case study page.
+ * Mang Kosme case study page.
  *
  * @package Cortex_PH
  */

@@ -82,7 +82,7 @@ function cortex_ph_seed_case_study_pages() {
     $pages = array(
         'sharkninja' => 'SharkNinja',
         'concepstore' => 'ConcepStore',
-        'mangkosme' => 'Mangkosme',
+        'mangkosme' => 'Mang Kosme',
     );
 
     foreach ($pages as $slug => $title) {
