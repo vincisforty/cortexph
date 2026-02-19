@@ -74,9 +74,9 @@ $home_url         = home_url('/');
                             <img src="<?php echo esc_url($hero_image); ?>" alt="<?php echo esc_attr($brand); ?> visual" class="block w-full h-auto">
                         <?php endif; ?>
                         <?php if (!empty($logo_image)) : ?>
-                            <div class="absolute top-6 left-6 bg-white/95 rounded-xl px-4 py-3 shadow-lg">
+                            <!-- <div class="absolute top-6 left-6 bg-white/95 rounded-xl px-4 py-3 shadow-lg">
                                 <img src="<?php echo esc_url($logo_image); ?>" alt="<?php echo esc_attr($brand); ?> logo" class="h-8 w-auto">
-                            </div>
+                            </div> -->
                         <?php endif; ?>
                     </div>
                 </div>
@@ -219,7 +219,7 @@ $home_url         = home_url('/');
         </div>
     </section>
 
-    <section class="py-24 bg-white border-t border-slate-100">
+    <!-- <section class="py-24 bg-white border-t border-slate-100">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-10" data-aos="fade-up">
                 <div>
@@ -237,7 +237,7 @@ $home_url         = home_url('/');
                 <?php endforeach; ?>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section class="py-24 bg-slate-100 text-slate-900 border-t border-slate-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
