@@ -17,7 +17,7 @@ $case_data = array(
     'headline'   => 'SharkNinja Philippines',
     'summary'    => 'SharkNinja Philippines represents the local embodiment of a globally recognized home and lifestyle technology powerhouse, bringing world-class solutions that seamlessly integrate into modern Filipino households.',
     'lead'       => 'SharkNinja\'s heritage is rooted in relentless innovation and consumer-driven design. Combining two powerhouse brands - Shark, the #1 floor-care brand in the United States, and Ninja, one of the most beloved kitchen appliance brands globally - SharkNinja creates products designed to simplify everyday tasks without sacrificing performance or style.',
-    'hero_image' => get_template_directory_uri() . '/images/screen-sharkninja.png',
+    'hero_image' => get_template_directory_uri() . '/images/herobanner-sharkninja.webp',
     'context_image' => get_template_directory_uri() . '/images/brandcontext-sharkninja.webp',
     'growth_image' => 'https://cdn.shopify.com/s/files/1/0790/0548/3325/files/Untitled_design_14.jpg?v=1764732100',
     'logo_image' => get_template_directory_uri() . '/images/sitelogo-sharkninja.png',
